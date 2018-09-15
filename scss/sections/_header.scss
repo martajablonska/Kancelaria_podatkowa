@@ -1,0 +1,44 @@
+@import 'helpers/variables';
+@import 'base/general';
+
+.header_bar {
+    height: 100px;
+    width: $sectionwidth;
+    margin: $sectionmargin;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:90%;
+}
+
+.header_menu {
+    width: 80%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: $mainfont;
+    
+    li {
+        font-size: 20px;
+        
+        a:hover {
+            color:$turkus;
+        }
+    }
+}
+
+
+
+.logotype {
+    height: 80px;
+    width:auto;
+}
