@@ -1,0 +1,26 @@
+.kancelaria {
+    width: $sectionwidth;
+    margin: $sectionmargin;
+    margin-top:$mainmargin;
+    margin-bottom: $mainmargin;
+    font-family: $mainfont;
+    color: $black;
+}
+.kancelaria_container {
+    width:100%;
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.kancelaria_photo {
+    height: 350px;
+    width:auto;
+    margin:0;
+}
+
+.kancelaria_descr {
+    margin-left: 60px;
+    width:70%;
+}

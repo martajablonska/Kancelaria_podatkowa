@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -80,10 +80,14 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
+/*@import url('https://fonts.googleapis.com/css?family=PT+Sans');*/
+/*$mainfont: 'Montserrat', sans-serif;*/
+/*$mainfont: 'PT Sans', sans-serif;*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 a {
   color: inherit;
@@ -94,10 +98,27 @@ a {
 img {
   width: 100%; }
 
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  text-align: center; }
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+p {
+  line-height: 2;
+  margin-bottom: 20px; }
+
+/*$mainfont: 'Montserrat', sans-serif;*/
+/*$mainfont: 'PT Sans', sans-serif;*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 a {
   color: inherit;
@@ -107,6 +128,21 @@ a {
 
 img {
   width: 100%; }
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  text-align: center; }
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+p {
+  line-height: 2;
+  margin-bottom: 20px; }
 
 .header_bar {
   height: 80px;
@@ -154,7 +190,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
   .header_menu li {
     font-size: 20px; }
     .header_menu li a:hover {
@@ -165,8 +201,8 @@ img {
   width: auto; }
 
 .hero {
-  height: 80vh;
-  background: url(../../img/latarnia2.jpg);
+  height: 90vh;
+  background: url(../../img/morze.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -175,6 +211,37 @@ img {
   top: 200px;
   display: inline;
   color: #ffffff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 50px;
-  margin-left: 40px; }
+  margin-left: 100px; }
+
+.kancelaria {
+  width: 85vw;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: "Ubuntu", sans-serif;
+  color: #000000; }
+
+.kancelaria_container {
+  width: 100%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.kancelaria_photo {
+  height: 350px;
+  width: auto;
+  margin: 0; }
+
+.kancelaria_descr {
+  margin-left: 60px;
+  width: 70%; }
