@@ -83,7 +83,6 @@ button::-moz-focus-inner {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #ffffff;
   font-family: "Montserrat", sans-serif; }
 
 a {
@@ -98,7 +97,6 @@ img {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #ffffff;
   font-family: "Montserrat", sans-serif; }
 
 a {
@@ -111,10 +109,11 @@ img {
   width: 100%; }
 
 .header_bar {
-  height: 100px;
+  height: 80px;
   width: 85vw;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,3 +163,18 @@ img {
 .logotype {
   height: 80px;
   width: auto; }
+
+.hero {
+  height: 80vh;
+  background: url(../../img/latarnia2.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.hero_title {
+  position: relative;
+  top: 200px;
+  display: inline;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin-left: 40px; }
