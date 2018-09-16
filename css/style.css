@@ -253,7 +253,7 @@ p {
     color: #4B4A52; }
 
 .doradztwo {
-  height: 600px;
+  height: 700px;
   font-family: "Montserrat", sans-serif;
   background-color: #F9F9F9;
   padding-top: 100px;
@@ -266,21 +266,51 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
   .doradztwo_container h4 {
     font-size: 25px; }
 
 .doradztwo_item {
+  height: 100px;
+  width: 30%;
+  background-color: #ffffff;
+  margin: 20px 0;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .doradztwo_item h4 {
+    font-weight: bold;
+    color: #4B4A52; }
+
+.doradztwo_show {
+  z-index: 1; }
 
 .doradztwo_list {
-  padding: 20px; }
+  padding: 20px;
+  display: none; }
+
+.doradztwo_icon {
+  color: #1D9A9E;
+  height: 60px; }
+
+.list {
+  font-weight: bold;
+  font-size: 40px; }

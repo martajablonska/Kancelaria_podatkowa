@@ -1,5 +1,5 @@
 .doradztwo {
-    height: 600px;
+    height: 700px;
     font-family: $mainfont;
     background-color: $lightgrey;
     padding-top: $mainmargin;
@@ -15,7 +15,9 @@
     margin:auto;
     margin-top:30px;
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
+    flex-wrap: wrap;
     
     
     h4 {
@@ -26,10 +28,37 @@
 }
 
 .doradztwo_item {
-    display: flex;
-    flex-direction: row;
+        height: 100px;
+        width:30%;
+        background-color: $white;
+        margin:20px 0;
+        box-shadow: 0 1px 1px rgba(0,0,0,.08);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    
+    h4 {
+        font-weight: bold;
+        color:$blackgrey;
+    }
+}
+
+.doradztwo_show {
+    z-index:1;
 }
 
 .doradztwo_list {
     padding:20px;
+    display: none;
+}
+
+.doradztwo_icon {
+    color: $turkus;
+    height: 60px;
+}
+
+.list {
+    font-weight: bold;
+    font-size: 40px;
 }
