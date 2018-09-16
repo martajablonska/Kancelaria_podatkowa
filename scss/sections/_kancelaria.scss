@@ -4,6 +4,11 @@
     font-family: $mainfont;
     background-color: $white;
     color: $black;
+    
+    h2 {
+        width:400px;
+        border-bottom: 2px solid $turkus;
+    }
 }
 .kancelaria_container {
     width:100%;
@@ -21,5 +26,10 @@
 
 .kancelaria_descr {
     margin-left: 60px;
-    width:70%;
+    width:75%;
+    
+    p {
+    
+    color:$blackgrey;
+    }
 }

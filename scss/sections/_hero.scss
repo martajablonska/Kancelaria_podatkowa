@@ -3,13 +3,14 @@
     background: url(../../img/morze.jpg);
     background-size:cover;
     background-position: center;
+    background-attachment: fixed;
     
 }
 
 .hero_title {
     position: relative;
     top:300px;
-    left:90px;
+    left:80px;
     display: inline;
     color:$white;
     font-family: $mainfont;
