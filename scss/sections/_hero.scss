@@ -1,5 +1,5 @@
 .hero {
-    height: 90vh;
+    height: 100vh;
     background: url(../../img/morze.jpg);
     background-size:cover;
     background-position: center;
@@ -7,10 +7,10 @@
 
 .hero_title {
     position: relative;
-    top:200px;
+    top:300px;
     display: inline;
     color:$white;
     font-family: $mainfont;
-    font-size: 50px;
+    font-size: 60px;
     margin-left: 100px;
 }
