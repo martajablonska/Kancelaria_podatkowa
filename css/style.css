@@ -254,7 +254,10 @@ p {
 
 .doradztwo {
   height: 600px;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  background-color: #F9F9F9;
+  padding-top: 100px;
+  padding-bottom: 100px; }
 
 .doradztwo_container {
   width: 100%;
