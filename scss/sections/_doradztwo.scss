@@ -1,0 +1,32 @@
+.doradztwo {
+    height: 600px;
+    font-family: $mainfont;
+    
+    li {
+        
+    }
+}
+
+.doradztwo_container {
+    width:100%;
+    margin:auto;
+    margin-top:30px;
+    display: flex;
+    flex-direction: row;
+    
+    
+    h4 {
+        font-size: 25px;
+        
+    }
+    
+}
+
+.doradztwo_item {
+    display: flex;
+    flex-direction: row;
+}
+
+.doradztwo_list {
+    padding:20px;
+}

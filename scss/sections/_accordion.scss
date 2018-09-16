@@ -1,0 +1,160 @@
+body {
+	background-color: #fff;
+	font-family: Lato, sans-serif;
+}
+
+#mainContainer{
+  width:100%;
+  position:relative;
+}
+
+#slide-container{
+  display:block;
+  height:400px;
+}
+
+.slide-wrapper{
+  margin:0 auto;
+  width:100%;
+  @include background-image(linear-gradient(#b3e1e4, #4298b9));
+}
+
+#ul-container{
+  display:block;
+  height:auto;
+  position:relative;
+}
+.ul-wrapper{
+  margin:0 auto;
+  width:1280px;
+}
+
+.accordion {
+  /*@include background-image(linear-gradient(#b3e1e4, #4298b9));*/
+	position: absolute;
+	width: 100%;
+	height: 450px;
+	margin-top: 0;
+	left: 0;
+	top: -50px;
+	overflow: hidden;
+  /*background: url(http://ulcommdev.com/continuum/assets/images/accordion-back.png);*/
+}
+
+ul {
+		margin-left: 150px;
+		list-style-type: none;
+  
+	}
+
+li {
+    top:0;
+		overflow: hidden;
+		position: relative;
+		width: 85px;
+		height: 500px;
+		float: left;
+		display: block;
+    transform: rotate(25deg);
+  margin-right:1px;
+  	/*@include transition( all 0.4s 0.1s ease-out );*/
+  
+  /*@include transition-property(width);*/
+  @include transition-duration(0.4s);
+  /*@include transition-timing-function(ease-in);*/
+
+  
+  &:hover {
+			width: 860px;
+    overflow:visible;
+    top:164px;
+    left:-36px;
+  }
+  
+}
+
+
+
+li#button1:hover{
+background-color:#000000;
+}
+
+.button1back{
+  background: url(http://ulcommdev.com/continuum/assets/images/cont-slide10.jpg);
+}
+
+
+li#button2:hover{
+background-color:#ececee;
+}
+
+.button2back{
+  background: url(http://ulcommdev.com/continuum/assets/images/cont-slide9.jpg);
+}
+
+li#button3:hover{
+background-color:#bbc8d8;
+}
+
+.button3back{
+  background: url(http://ulcommdev.com/continuum/assets/images/cont-slide8.jpg);
+}
+
+
+li#button4:hover{
+background-color:#d0ebfd;
+}
+
+.button4back{
+  background: url(http://ulcommdev.com/continuum/assets/images/cont-slide7.jpg);
+}
+
+h1 {
+			font-size: 2.5em;
+			margin-bottom: 10px;
+      color:#fff;
+		} 
+
+		p {
+			font-size: 0.88em;
+			line-height: 1.5em;
+			padding-right: 30px;
+      color:#fff;
+		}
+
+.tag{
+  z-index:10;
+  position:absolute;
+  width:80px;
+  height:500px;
+  @include background-image(linear-gradient(#b3e1e4, #4298b9));
+  top:0;
+  left:0;
+}
+
+.tag:hover{
+  @include background-image(linear-gradient(#ffd49e, #ff4f45));
+  top:0;
+  left:0;
+} 
+
+.tag p {
+  position:absolute;
+  top:40%;  
+  transform: rotate(-25deg);
+  left:20%;
+}
+
+.paragraph {
+    z-index:9;
+		position: absolute;
+		width: 860px;
+		height: 500px;
+		margin: -234px 0 0 114px;
+		padding: 150px 0 0 80px;
+    transform: rotate(-25deg);
+  background-color:#246588;
+} 
+
+
+.clearfloat{clear:both;}

@@ -1,5 +1,8 @@
 * {
     box-sizing:border-box;
+}
+
+body {
     font-family: $mainfont;
 }
 
@@ -32,4 +35,14 @@ h3 {
 p {
     line-height: 2;
     margin-bottom: 20px;
+}
+
+.container {
+    width:85vw;
+    max-width:1300px;
+    margin:auto;
+}
+
+:hover {
+    transition: all .2s;  
 }
