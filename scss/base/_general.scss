@@ -20,8 +20,8 @@ img {
 }
 
 h2 {
-    font-size:50px;
-    font-weight: 800;
+    font-size:45px;
+    font-weight:800;
     line-height: 1.5;
     margin:auto;
     margin-bottom: 60px;
@@ -29,13 +29,30 @@ h2 {
     text-transform: uppercase;
     width:400px;
     font-family: $mainfont;
+    letter-spacing: 1px;
+}
+
+h2:after {
+        content: '';
+        display: table;
+        height: 3px;
+        width: 140px;
+        background-color: $turkus;
+        position: relative;
+        top:3px;
+        left:32%;
 }
 
 h3 {
     font-size:35px;
     font-weight: bold;
     margin-bottom: 20px;
-}
+    color:$blackgrey;
+    }
+
+
+
+
 
 p {
     line-height: 2;

@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -80,9 +81,6 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-/*@import url('https://fonts.googleapis.com/css?family=PT+Sans');*/
-/*$mainfont: 'PT Sans', sans-serif;*/
-/*$mainfont:  'Raleway', Helvetica, Arial,sans-serif;*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -100,7 +98,7 @@ img {
   width: 100%; }
 
 h2 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 800;
   line-height: 1.5;
   margin: auto;
@@ -108,12 +106,24 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   width: 400px;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px; }
+
+h2:after {
+  content: '';
+  display: table;
+  height: 3px;
+  width: 140px;
+  background-color: #1D9A9E;
+  position: relative;
+  top: 3px;
+  left: 32%; }
 
 h3 {
   font-size: 35px;
   font-weight: bold;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  color: #4B4A52; }
 
 p {
   line-height: 2;
@@ -425,3 +435,36 @@ p {
   font-size: 16px;
   font-weight: bold;
   color: #4B4A52; }
+
+footer {
+  background-color: #4B4A52;
+  color: #ffffff; }
+
+.footer p {
+  padding: 0;
+  margin: 0;
+  font-size: 15px; }
+
+.footer :first-child {
+  font-weight: bold; }
+
+.footer_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+  margin-bottom: 40px; }
+  .footer_title img {
+    height: 100px;
+    width: auto; }
