@@ -122,13 +122,20 @@ h2:after {
 h3 {
   font-size: 33px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #4B4A52; }
 
 h4 {
   font-size: 19px;
   font-weight: bold;
   margin-bottom: 20px; }
+
+h5 {
+  color: #ADADAD;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 25px; }
 
 p {
   line-height: 2;
@@ -470,7 +477,7 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 70%;
+  width: 65%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

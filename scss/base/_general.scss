@@ -45,7 +45,7 @@ h2:after {
 h3 {
     font-size:33px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color:$blackgrey;
     }
 
@@ -53,6 +53,14 @@ h4 {
     font-size: 19px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+h5 {
+    color:$mediumgrey;
+    font-weight: bold;
+    font-size:15px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
 }
 
 
