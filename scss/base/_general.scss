@@ -20,8 +20,8 @@ img {
 }
 
 h2 {
-    font-size:45px;
-    font-weight:800;
+    font-size:40px;
+    font-weight:bold;
     line-height: 1.5;
     margin:auto;
     margin-bottom: 60px;
@@ -29,7 +29,6 @@ h2 {
     text-transform: uppercase;
     width:400px;
     font-family: $mainfont;
-    letter-spacing: 1px;
 }
 
 h2:after {
@@ -39,17 +38,22 @@ h2:after {
         width: 140px;
         background-color: $turkus;
         position: relative;
-        top:3px;
+        top:10px;
         left:32%;
 }
 
 h3 {
-    font-size:35px;
+    font-size:33px;
     font-weight: bold;
     margin-bottom: 20px;
     color:$blackgrey;
     }
 
+h4 {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
 
 
@@ -67,4 +71,9 @@ p {
 
 :hover {
     transition: all 0.5s;  
+}
+
+.icon {
+    margin-right: 20px;
+    font-size: 20px;
 }

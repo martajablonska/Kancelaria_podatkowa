@@ -1,6 +1,7 @@
 footer {
     background-color: $blackgrey;
     color:$white;
+    padding-bottom: 50px;
 }
 
 .footer {
@@ -9,10 +10,11 @@ footer {
         padding:0;
         margin:0;
         font-size: 15px;
-    }
+        line-height: 30px;
+    }  
     
-    :first-child {
-        font-weight: bold;
+    h3 {
+        color:$white;
     }
 }
 
@@ -22,11 +24,23 @@ footer {
     justify-content: space-between;
     width:70%;
     align-items: center;
-    padding-top:40px;
+    padding-top:50px;
     margin-bottom: 40px;
     
      img {
         height: 100px;
          width: auto;
+    }
+}
+
+.footer_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:50%;
+    
+    span {
+        font-weight: bold;
+        
     }
 }
