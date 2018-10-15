@@ -35,9 +35,12 @@
         width:100px;
     }
     
+    button:hover {
+        color:$turkuslight;
+    }
+    
     .icon-btn {
         margin-right: 10px;
-        color:$turkus;
         font-size: 25px;
     }
 }

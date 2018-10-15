@@ -155,8 +155,15 @@ p {
   margin-right: 20px;
   font-size: 20px; }
 
+.p-check {
+  font-size: 12px !important;
+  color: #ADADAD; }
+
+.red {
+  color: red !important; }
+
 .header_bar {
-  height: 100px;
+  height: 90px;
   position: fixed;
   background-color: #ffffff;
   width: 100%;
@@ -178,8 +185,8 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 .header_nav {
   display: -webkit-box;
@@ -210,20 +217,21 @@ p {
           justify-content: space-between;
   font-family: "Montserrat", sans-serif; }
   .header_menu li {
-    font-size: 18px;
-    font-weight: 600; }
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase; }
     .header_menu li a {
       color: #4B4A52; }
     .header_menu li a:hover {
       color: #1D9A9E; }
 
 .logotype {
-  height: 90px;
+  height: 80px;
   width: auto; }
 
 .hero {
   height: 100vh;
-  background: url(../../img/wiezowce.jpg);
+  background: url(../../img/morze.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -236,8 +244,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-filter: brightness(0.3);
-          filter: brightness(0.3); }
+  /*filter: brightness(0.5)*/ }
   .hero img {
     width: 100%; }
 
@@ -414,9 +421,10 @@ p {
     font-weight: bold;
     cursor: pointer;
     width: 100px; }
+  .publikacje_item button:hover {
+    color: #1eb2b7; }
   .publikacje_item .icon-btn {
     margin-right: 10px;
-    color: #1D9A9E;
     font-size: 25px; }
 
 .porady {

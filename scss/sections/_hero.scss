@@ -1,13 +1,13 @@
 .hero {
     height: 100vh;
-    background: url(../../img/wiezowce.jpg);
+    background: url(../../img/morze.jpg);
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: brightness(0.3);
+    /*filter: brightness(0.5)*/
     
     
     img {
