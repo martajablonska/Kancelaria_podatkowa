@@ -2,9 +2,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Fira+Sans+Condensed");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -82,12 +81,14 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
+/*$mainfont: 'Montserrat', sans-serif;*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
 body {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Fira Sans", sans-serif; }
 
 a {
   color: inherit;
@@ -107,7 +108,7 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   width: 400px;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Fira Sans", sans-serif; }
 
 h2:after {
   content: '';
@@ -147,9 +148,9 @@ p {
   margin: auto; }
 
 :hover {
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s; }
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
 
 .icon {
   margin-right: 20px;
@@ -215,9 +216,9 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Fira Sans", sans-serif; }
   .header_menu li {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
     text-transform: uppercase; }
     .header_menu li a {
@@ -250,20 +251,20 @@ p {
 
 .hero_title {
   color: #ffffff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   -webkit-filter: none;
           filter: none; }
   .hero_title h1 {
     font-size: 70px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     margin-bottom: 30px; }
 
 .kancelaria {
   margin-top: 80px;
   margin-bottom: 80px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   background-color: #ffffff;
   color: #000000; }
 
@@ -294,7 +295,7 @@ p {
 
 .doradztwo {
   height: 700px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   background-color: #F9F9F9;
   padding-top: 80px;
   padding-bottom: 80px; }
@@ -358,7 +359,7 @@ p {
 .szkolenia {
   margin-top: 80px;
   margin-bottom: 80px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   background-color: #ffffff;
   color: #000000;
   height: 500px; }
@@ -430,7 +431,7 @@ p {
 .porady {
   padding-top: 80px;
   padding-bottom: 80px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   background-color: #F9F9F9;
   color: #000000;
   height: 700px; }
