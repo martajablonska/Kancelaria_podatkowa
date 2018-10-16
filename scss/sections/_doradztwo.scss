@@ -1,7 +1,5 @@
 .doradztwo {
-    height: 700px;
     font-family: $mainfont;
-    background-color: $lightgrey;
     padding-top: $mainmargin;
     padding-bottom: $mainmargin;
     
@@ -11,12 +9,11 @@
 }
 
 .doradztwo_container {
-    width:100%;
+    height: auto;
+    width:100vw;
     margin:auto;
     margin-top:30px;
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
     flex-wrap: wrap;
     
     
@@ -27,7 +24,7 @@
     
 }
 
-.doradztwo_item {
+/*.doradztwo_item {
         height: 100px;
         width:30%;
         background-color: $white;
@@ -42,23 +39,120 @@
         font-weight: bold;
         color:$blackgrey;
     }
+}*/
+
+.doradztwo_item {
+    width:33%;
+    border:1px solid black;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #d2d2d2;
+    padding: 10px;
+    margin: 0;
+    
+    & button {
+        border:1px solid black;
+        width:140px;
+        height: 45px;
+        border-radius:3px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    
+    & h4 {
+        text-transform: uppercase;
+        font-size: 30px;
+    }
 }
 
-.doradztwo_show {
-    z-index:1;
+.doradztwo_item-grey {
+    background-color: $lightgrey;
+    
+    & h4 {
+        color:$blackgrey;
+    }
+    
+     & button {
+        border:2px solid $blackgrey;
+        color:$blackgrey;
+         
+         &:hover {
+             background-color: $blackgrey;
+             color:$lightgrey;
+         }
+    }
+    
+    & .doradztwo_list li {
+        color:$blackgrey;
+    }
 }
 
-.doradztwo_list {
-    padding:20px;
+.doradztwo_item-turkus {
+    background-color: $turkuslight;
+    
+     & h4 {
+        color:$white;
+    }
+    
+     & button {
+        border:2px solid $white;
+        color:$white;
+         
+         &:hover {
+             background-color: $white;
+             color:$turkuslight;
+         }
+    }
+    
+    & .doradztwo_list li {
+        color:$white;
+    }
+
+    
+    
+}
+
+.doradztwo_item-darkgrey {
+    background-color: $mediumgrey;
+    
+    & h4 {
+        color:$blackgrey;
+    }
+    
+     & button {
+        border:2px solid $blackgrey;
+        color:$blackgrey;
+         
+         &:hover {
+             background-color: $blackgrey;
+             color:$mediumgrey;
+         }
+    }
+    
+     & .doradztwo_list li {
+        color:$blackgrey;
+    }
+
+}
+
+.hide {
     display: none;
 }
 
-.doradztwo_icon {
-    color: $turkus;
-    height: 60px;
+
+
+.doradztwo_list li {
+    margin: 7px;
+    line-height: 20px;
+    font-size: 17px;
 }
 
-.list {
-    font-weight: bold;
-    font-size: 40px;
-}
+
+
+
+
+
