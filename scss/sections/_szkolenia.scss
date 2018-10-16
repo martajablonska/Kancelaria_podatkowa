@@ -2,15 +2,11 @@
     margin-top:$mainmargin;
     margin-bottom: $mainmargin;
     font-family: $mainfont;
-    background-color: $white;
+    background-color: $lightgrey;
     color: $black; 
-    height: 500px;
-    
-    
-  
 }
 
-.szkolenia_container {
+.szkolenia_description {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,5 +20,22 @@
         width:90%;
         line-height: 1.4;
         
+    }
+}
+
+.szkolenia_container {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    
+    
+    & div {
+        width:50%;
+        margin: 0 30px;
+        
+    }
+    
+    li {
+        margin:15px;
     }
 }

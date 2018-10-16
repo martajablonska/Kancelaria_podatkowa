@@ -104,7 +104,7 @@ h2 {
   font-weight: bold;
   line-height: 1.5;
   margin: auto;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
   text-align: center;
   text-transform: uppercase;
   width: 400px;
@@ -224,7 +224,6 @@ p {
   font-family: "Fira Sans", sans-serif; }
   .header_menu li {
     font-size: 17px;
-    font-weight: 600;
     text-transform: uppercase; }
     .header_menu li a {
       color: #4B4A52; }
@@ -414,11 +413,10 @@ p {
   margin-top: 80px;
   margin-bottom: 80px;
   font-family: "Fira Sans", sans-serif;
-  background-color: #ffffff;
-  color: #000000;
-  height: 500px; }
+  background-color: #F9F9F9;
+  color: #000000; }
 
-.szkolenia_container {
+.szkolenia_description {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -430,7 +428,7 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto; }
-  .szkolenia_container p {
+  .szkolenia_description p {
     -ms-flex-item-align: center;
         align-self: center;
     color: #4B4A52;
@@ -438,6 +436,21 @@ p {
     font-size: 18px;
     width: 90%;
     line-height: 1.4; }
+
+.szkolenia_container {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .szkolenia_container div {
+    width: 50%;
+    margin: 0 30px; }
+  .szkolenia_container li {
+    margin: 15px; }
 
 .publikacje img {
   width: 300px;
