@@ -18,15 +18,13 @@
 
 .hero_title {
     color:$white;
-    font-family: $headerfont;
-    font-weight: bold;
-    text-transform: uppercase;
-    filter: none;
     
     h1 {
         font-size: 70px;
-        font-family: $mainfont;
+        font-family: $headerfont;
         margin-bottom:30px;
+        text-shadow: $textshadow;
+        text-transform: uppercase;
     }
     
     
