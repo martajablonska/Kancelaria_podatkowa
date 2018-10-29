@@ -458,7 +458,7 @@ p {
 
 .publikacje img {
   width: 300px;
-  height: 170px;
+  height: 180px;
   margin-right: 50px; }
 
 .publikacje h6 {
@@ -470,6 +470,10 @@ p {
   font-size: 15px;
   line-height: normal;
   color: #79797A; }
+
+.publikacje .first {
+  padding-top: 30px;
+  border-top: 1px solid #d6d6d6; }
 
 .publikacje_item {
   display: -webkit-box;
@@ -486,8 +490,8 @@ p {
       -ms-flex-align: center;
           align-items: center;
   margin: 40px 0;
-  padding-top: 30px;
-  border-top: 1px solid #d6d6d6; }
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d6d6d6; }
   .publikacje_item button {
     color: #1D9A9E;
     font-weight: bold;
@@ -498,6 +502,61 @@ p {
   .publikacje_item .icon-btn {
     margin-right: 10px;
     font-size: 25px; }
+
+.newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto; }
+  .newsletter p {
+    color: #4B4A52;
+    font-size: 20px;
+    margin-bottom: 40px; }
+
+.newsletter_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  margin-bottom: 40px;
+  height: 50px;
+  width: 45vw; }
+  .newsletter_form input {
+    width: 100%;
+    padding-left: 20px; }
+  .newsletter_form button {
+    color: #ffffff;
+    background-color: #1D9A9E;
+    width: 200px;
+    cursor: pointer; }
+  .newsletter_form button:hover {
+    background-color: #1eb2b7; }
+
+.checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80%; }
+  .checkbox input {
+    margin-right: 10px; }
 
 .porady {
   padding-top: 80px;
