@@ -5,7 +5,10 @@ footer {
 }
 
 .footer {
-    
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+        
     p {
         padding:0;
         margin:0;
@@ -13,23 +16,36 @@ footer {
         line-height: 30px;
     }  
     
-    h3 {
+    h4 {
         color:$white;
+        margin-bottom: 40px;
+        font-size: 25px;
     }
+    
+   
 }
+
+.footer_left {
+    width:55%;
+}
+
+ .logo_footer {
+        height: 160px;
+        width: auto;
+     margin-top: 80px;
+    }
 
 .footer_title {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width:65%;
+    justify-content: center;
+    width:100%;
     align-items: center;
     padding-top:50px;
-    margin-bottom: 40px;
+    margin-bottom: 40px;  
     
-     img {
-        height: 100px;
-         width: auto;
+    h3 {
+        color:$white;
     }
 }
 
@@ -37,7 +53,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width:50%;
+    width:80%;
+    
+  
     
     span {
         font-weight: bold;
