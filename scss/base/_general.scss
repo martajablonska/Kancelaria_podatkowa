@@ -53,19 +53,15 @@ h3 {
 h4 {
     font-size: 19px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 h5 {
-    color:$mediumgrey;
-    font-weight: bold;
+    color:$darkgrey;
     font-size:15px;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
-
-
-
 
 p {
     line-height: 2;
@@ -98,4 +94,10 @@ p {
 .fa-check {
     margin-right: 10px;
     font-size: 15px;
+}
+
+.icons {
+    width:150px;
+    height: auto;
+    margin-bottom: 20px;
 }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="200px" height="200px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 200 200"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#4D515C;stroke-width:6.00005;stroke-linecap:round;stroke-linejoin:round}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Warstwa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <line class="fil0 str0" x1="138.667" y1="99.9504" x2="138.667" y2= "108.65" />
+  <line class="fil0 str0" x1="138.667" y1="146.451" x2="138.667" y2= "155.151" />
+  <path class="fil0 str0" d="M138.667 87.3503c22.2002,0 40.2003,18.0001 40.2003,40.2003 0,22.2002 -18.0001,40.2003 -40.2003,40.2003 -22.2002,0 -40.2003,-18.0001 -40.2003,-40.2003 0,-22.2002 18.0001,-40.2003 40.2003,-40.2003z"/>
+  <path class="fil0 str0" d="M151.267 113.15c-3.90003,-1.50001 -7.50006,-2.70002 -11.4001,-3.00002 -19.5002,-2.40002 -21.9002,17.4001 -1.20001,17.4001 20.4002,0 18.3001,19.8002 -1.20001,17.4001 -3.60003,-0.300002 -7.20006,-1.50001 -11.1001,-3.00002"/>
+  <polyline class="fil0 str0" points="67.5667,45.05 51.9666,45.05 51.9666,29.1498 133.567,29.1498 133.567,45.05 "/>
+  <polyline class="fil0 str0" points="67.2667,60.6501 67.2667,45.05 148.867,45.05 148.867,60.6501 125.767,60.6501 "/>
+  <polyline class="fil0 str0" points="43.5665,76.5502 43.5665,60.6501 125.167,60.6501 125.167,76.5502 "/>
+  <polyline class="fil0 str0" points="43.5665,92.1503 43.5665,76.5502 125.167,76.5502 125.167,87.9503 "/>
+  <polyline class="fil0 str0" points="43.5665,108.05 43.5665,92.1503 118.867,92.1503 "/>
+  <polyline class="fil0 str0" points="43.5665,123.951 43.5665,108.05 103.267,108.05 "/>
+  <polyline class="fil0 str0" points="43.5665,139.551 43.5665,123.951 97.8669,123.951 "/>
+  <polyline class="fil0 str0" points="108.967,155.451 43.5665,155.451 43.5665,139.551 99.9669,139.551 "/>
+ </g>
+</svg>
