@@ -99,6 +99,13 @@ a {
 /*img {
     width:100%;
 }*/
+h1 {
+  font-size: 70px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  color: #ffffff; }
+
 h2 {
   font-size: 40px;
   font-weight: bold;
@@ -146,7 +153,8 @@ p {
 .container {
   width: 85vw;
   max-width: 1300px;
-  margin: auto; }
+  margin: auto;
+  overflow-y: hidden; }
 
 :hover {
   -webkit-transition: all 0.3s;
@@ -245,7 +253,7 @@ p {
 
 .hero {
   height: 100vh;
-  background: url(../../img/morze.jpg);
+  background: url(../../img/backgrounds/morze.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -263,13 +271,9 @@ p {
     width: 100%; }
 
 .hero_title {
-  color: #ffffff; }
-  .hero_title h1 {
-    font-size: 70px;
-    font-family: "Fira Sans Condensed", sans-serif;
-    margin-bottom: 30px;
-    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
-    text-transform: uppercase; }
+  position: relative;
+  top: 30px;
+  left: -200px; }
 
 .kancelaria {
   font-family: "Fira Sans", sans-serif;

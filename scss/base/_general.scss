@@ -19,6 +19,14 @@ a {
     width:100%;
 }*/
 
+h1 {
+    font-size: 70px;
+    font-family: $headerfont;
+    text-shadow: $textshadow;
+    text-transform: uppercase;
+    color:$white;
+}
+
 h2 {
     font-size:40px;
     font-weight:bold;
@@ -73,6 +81,7 @@ p {
     width:85vw;
     max-width:1300px;
     margin:auto;
+    overflow-y: hidden;
 }
 
 :hover {
