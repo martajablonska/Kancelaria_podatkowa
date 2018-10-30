@@ -234,7 +234,8 @@ p {
     font-size: 17px;
     text-transform: uppercase; }
     .header_menu li a {
-      color: #4B4A52; }
+      color: #4B4A52;
+      font-weight: 400; }
     .header_menu li a:hover {
       color: #1D9A9E; }
 
