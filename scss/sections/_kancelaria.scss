@@ -4,12 +4,10 @@
     color: $black; 
 }
 .kancelaria_container {
-    width:85vw;
-    margin:auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
 }
 
 .kancelaria_photo {
@@ -24,8 +22,7 @@
     width:75%;
     
     p {
-    
-    color:$blackgrey;
+        color:$blackgrey;
     }
 }
 
