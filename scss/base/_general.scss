@@ -110,3 +110,12 @@ p {
 .bold {
     font-weight: bold;
 }
+
+.parag_after_h2 {
+    align-self:center;
+    color:$blackgrey;
+    text-align:center;
+    font-size: 18px;
+    width:90%;
+    line-height: 1.5;
+}
