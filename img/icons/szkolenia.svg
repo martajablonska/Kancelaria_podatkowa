@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300px" height="300px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 300 300"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#199B9F;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Warstwa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0 str0" d="M183.574 114.626l0 93.6c0,2.7 -2.1,4.8 -4.8,4.8l-81 0c-2.7,0 -5.1,-2.1 -5.1,-4.8l0 -120.6c0,-2.7 2.4,-5.1 5.1,-5.1l54 0"/>
+  <path class="fil0 str0" d="M183.574 114.626l-27 0c-2.7,0 -4.8,-2.1 -4.8,-4.8l0 -27.3 31.8 32.1z"/>
+  <path class="fil0 str0" d="M200.974 99.026l17.4 0 0 90.9c0,18 -17.4,18 -17.4,0l0 -90.9z"/>
+  <polyline class="fil0 str0" points="229.774,147.326 230.074,113.426 200.974,113.426 "/>
+  <line class="fil0 str0" x1="209.374" y1="213.026" x2="209.374" y2= "203.426" />
+  <line class="fil0 str0" x1="112.474" y1="108.926" x2="138.274" y2= "108.926" />
+  <line class="fil0 str0" x1="112.474" y1="133.226" x2="164.074" y2= "133.226" />
+  <line class="fil0 str0" x1="112.474" y1="147.626" x2="164.074" y2= "147.626" />
+  <line class="fil0 str0" x1="112.474" y1="161.726" x2="164.074" y2= "161.726" />
+  <line class="fil0 str0" x1="112.474" y1="176.126" x2="138.274" y2= "176.126" />
+ </g>
+</svg>

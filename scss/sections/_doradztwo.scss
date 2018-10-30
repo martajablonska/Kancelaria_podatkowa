@@ -1,10 +1,12 @@
 .doradztwo {
     font-family: $mainfont;
-    padding-top: $mainmargin;
-    padding-bottom: $mainmargin;
     
-    li {
-        
+    p {
+        text-align: center;
+        margin: 0;
+        font-size: 23px;
+        color:$blackgrey;
+        margin-bottom: 40px;
     }
 }
 
@@ -15,12 +17,6 @@
     margin-top:30px;
     display: flex;
     flex-wrap: wrap;
-    
-    
-    h4 {
-        font-size: 25px;
-        
-    }
     
 }
 
@@ -42,30 +38,31 @@
 }*/
 
 .doradztwo_item {
-    width:33%;
+    box-sizing: border-box;
+    width:350px;
     border:1px solid black;
-    height: 400px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border:1px solid #d2d2d2;
+    border:1px solid $lightgrey2;
     padding: 10px;
-    margin: 0;
+    margin: 7px;
     
     & button {
         border:1px solid black;
-        width:140px;
-        height: 45px;
+        width:130px;
+        height: 40px;
         border-radius:3px;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 17px;
+        font-size: 15px;
     }
     
     & h4 {
         text-transform: uppercase;
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
@@ -92,7 +89,7 @@
 }
 
 .doradztwo_item-turkus {
-    background-color: $turkuslight;
+    background-color: $turkus;
     
      & h4 {
         color:$white;

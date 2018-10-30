@@ -26,16 +26,48 @@
 .szkolenia_container {
     margin-top: 60px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
     
     & div {
-        width:50%;
         margin: 0 30px;
         
     }
     
+    ul {
+        list-style-type:disc;
+    }
+    
     li {
         margin:15px;
+    }
+}
+
+.aktualne {
+    width:80%;
+    display: flex;
+    margin:auto;
+    flex-direction:row;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    
+    h4 {
+        margin-top: 30px;
+    }
+    
+}
+
+.aktualne_photo {
+
+        width:500px;
+    height: auto;
+}
+
+.others {
+    display: flex;
+    flex-direction: row;
+    
+    div {
+        width:50%;
     }
 }

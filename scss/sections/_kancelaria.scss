@@ -1,16 +1,15 @@
 .kancelaria {
-    margin-top:$mainmargin;
-    margin-bottom: $mainmargin;
     font-family: $mainfont;
-    background-color: $white;
+    background-color: $lightgrey;
     color: $black; 
 }
 .kancelaria_container {
-    width:100%;
-    margin:0;
+    width:85vw;
+    margin:auto;
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 .kancelaria_photo {
