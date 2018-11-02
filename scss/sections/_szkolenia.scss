@@ -1,6 +1,5 @@
 .szkolenia {
     margin-top:$mainpadding;
-    margin-bottom: $mainpadding;
     font-family: $mainfont;
     background-color: $lightgrey;
     color: $black; 
@@ -15,19 +14,13 @@
     flex-direction: column;
     justify-content: center;
     margin:auto;
-    width:90%; 
-    
+    width:100%;
 }
 
 .szkolenia_container {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    
-    
-    & div {
-        margin: 0 30px;
-    }
     
     h4 {
         color:$blackgrey;
@@ -36,9 +29,7 @@
 
 .szkolenia_list {
     display: flex;
-    margin:auto;
     flex-direction:row;
-    justify-content: space-around;
     padding-bottom: 50px;
     
     h4 {
@@ -48,6 +39,7 @@
     img {
         width:500px;
         height: auto;
+        margin-right: 70px;
     }
     
     ul {

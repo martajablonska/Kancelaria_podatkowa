@@ -419,7 +419,6 @@ p {
 }*/
 .szkolenia {
   margin-top: 80px;
-  margin-bottom: 80px;
   font-family: "Fira Sans", sans-serif;
   background-color: #F9F9F9;
   color: #000000; }
@@ -438,7 +437,7 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
-  width: 90%; }
+  width: 100%; }
 
 .szkolenia_container {
   margin-top: 30px;
@@ -449,8 +448,6 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-  .szkolenia_container div {
-    margin: 0 30px; }
   .szkolenia_container h4 {
     color: #4B4A52; }
 
@@ -458,19 +455,17 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: auto;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   padding-bottom: 50px; }
   .szkolenia_list h4 {
     margin-top: 30px; }
   .szkolenia_list img {
     width: 500px;
-    height: auto; }
+    height: auto;
+    margin-right: 70px; }
   .szkolenia_list ul {
     list-style-type: square;
     color: #4B4A52; }
