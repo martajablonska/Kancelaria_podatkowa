@@ -77,6 +77,22 @@ p {
     margin-bottom: 20px;
 }
 
+button {
+    cursor:pointer;
+}
+
+.btn-turkus {
+    border-radius:3px;
+    background-color: $turkus;
+    color:$white;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+.btn-turkus:hover {
+    background-color: $turkuslight;
+}
+
 .container {
     width:85vw;
     max-width:1300px;
