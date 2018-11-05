@@ -7,7 +7,7 @@ footer {
 .footer {
     display: flex;
     flex-direction: row;
-    width:100vw;
+    width:100%;
         
     p {
         padding:0;
@@ -21,19 +21,21 @@ footer {
         margin-bottom: 40px;
         font-size: 25px;
     }
-    
-   
 }
 
 .footer_left {
     width:55%;
 }
 
+.footer_right {
+    width:45%;
+}
+
  .logo_footer {
-        height: 170px;
-        width: auto;
-     margin-top: 80px;
-    }
+    height: 170px;
+    width: auto;
+    margin-top: 80px;
+}
 
 .footer_title {
     display: flex;
@@ -53,12 +55,29 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width:80%;
+    width:70%;
     
-  
+    .footer_adres {
+        display: flex;
+        flex-direction: row;
+    }
     
-    span {
-        font-weight: bold;
-        
+    .footer_icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer_numbers {
+        span {
+            margin-right: 7px;
+        }
     }
 }
+
+
+
+
+
+
+
