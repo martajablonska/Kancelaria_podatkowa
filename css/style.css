@@ -832,3 +832,7 @@ footer {
             align-items: center; }
   .footer_contact .footer_numbers span {
     margin-right: 7px; }
+
+.fa-linkedin {
+  font-size: 26px;
+  margin-right: 20px; }
