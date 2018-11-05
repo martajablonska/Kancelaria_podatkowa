@@ -19,10 +19,11 @@
     
     .first {
         padding-top: 30px;
-        border-top: 1px solid $linegrey;   
+        padding-bottom: 30px;
+        border-top: 1px solid $linegrey; 
+        border-bottom: 1px solid $linegrey;   
     }
-    
-    
+       
 }
 
 .publikacje_item {
@@ -30,9 +31,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin:40px 0;
-    padding-bottom: 30px;
-    border-bottom: 1px solid $linegrey;    
+    margin:40px 0;     
     
     button {
         color:$turkus;
@@ -56,9 +55,11 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
+    padding-top:30px;
+    background-color: $turkus;
     
-      p {
-            color:$blackgrey;
+      p {   
+            color:$white;
             font-size: 20px;
             margin-bottom: 40px;
         }
@@ -74,23 +75,27 @@
     margin-bottom: 40px;
     height: 50px;
     width:45vw;
+    border:none;
     
     input {
         width:100%;
         padding-left: 20px;
+        border:none;
     }
     
     button {
         color:$white;
-        background-color: $turkus;
+        background-color: $turkuslight;
         width:200px;
+        font-weight: bold;
         cursor:pointer;
         text-transform: uppercase;
     }
     
     button:hover {
-                background-color: $turkuslight;
+        background-color: $blackgrey;
     }
+
 }
 
 .checkbox {

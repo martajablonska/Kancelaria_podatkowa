@@ -441,6 +441,7 @@ p {
 
 .szkolenia_container {
   margin-top: 30px;
+  padding: 0 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -508,7 +509,8 @@ p {
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around; }
+      justify-content: space-around;
+  margin-bottom: 60px; }
 
 .blog_item {
   width: 45%;
@@ -528,14 +530,43 @@ p {
     font-size: 15px;
     color: #ADADAD; }
   .blog_item button {
-    background-color: #1D9A9E;
-    color: #ffffff;
-    width: 150px;
-    height: 40px;
-    cursor: pointer;
-    border-radius: 3px;
-    border: none; }
+    color: #4B4A52;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer; }
 
+/*.blog_archive {   
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-bottom: 30px;
+    
+    
+    button {
+        font-family: $headerfont;
+        background-color: $turkus;
+        border:2px solid $turkus;
+        color:white;
+        border-radius:3px;
+        width:100%;
+        height: 150px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor:pointer;
+        font-size: 30px;
+        text-shadow: $textshadow;
+    }
+    
+            
+        button:hover {
+            background-color: $turkuslight;
+            color:$white;
+        }
+    
+    
+    
+    
+}*/
 .publikacje img {
   width: 300px;
   height: 180px;
@@ -553,7 +584,9 @@ p {
 
 .publikacje .first {
   padding-top: 30px;
-  border-top: 1px solid #d6d6d6; }
+  padding-bottom: 30px;
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6; }
 
 .publikacje_item {
   display: -webkit-box;
@@ -569,9 +602,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 40px 0;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #d6d6d6; }
+  margin: 40px 0; }
   .publikacje_item button {
     color: #1D9A9E;
     font-weight: bold;
@@ -594,9 +625,11 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: auto; }
+  margin: auto;
+  padding-top: 30px;
+  background-color: #1D9A9E; }
   .newsletter p {
-    color: #4B4A52;
+    color: #ffffff;
     font-size: 20px;
     margin-bottom: 40px; }
 
@@ -614,18 +647,21 @@ p {
   margin: auto;
   margin-bottom: 40px;
   height: 50px;
-  width: 45vw; }
+  width: 45vw;
+  border: none; }
   .newsletter_form input {
     width: 100%;
-    padding-left: 20px; }
+    padding-left: 20px;
+    border: none; }
   .newsletter_form button {
     color: #ffffff;
-    background-color: #1D9A9E;
+    background-color: #1eb2b7;
     width: 200px;
+    font-weight: bold;
     cursor: pointer;
     text-transform: uppercase; }
   .newsletter_form button:hover {
-    background-color: #1eb2b7; }
+    background-color: #4B4A52; }
 
 .checkbox {
   display: -webkit-box;
