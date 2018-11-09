@@ -186,7 +186,7 @@ button {
 
 .fa-check {
   margin-right: 10px;
-  font-size: 15px; }
+  font-size: 13px; }
 
 .bold {
   font-weight: bold; }
@@ -345,7 +345,7 @@ button {
 .doradztwo_item {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 350px;
+  width: 30%;
   border: 1px solid black;
   height: 320px;
   display: -webkit-box;
@@ -364,7 +364,7 @@ button {
   border: 1px solid #f7f3f3;
   padding: 10px;
   margin: 7px; }
-  .doradztwo_item button {
+  .doradztwo_item .btn-show_more {
     width: 130px;
     height: 40px;
     border-radius: 3px;
@@ -374,44 +374,67 @@ button {
   .doradztwo_item h4 {
     text-transform: uppercase;
     font-size: 25px; }
+  .doradztwo_item .doradztwo_list {
+    display: none; }
+  .doradztwo_item .btn-close {
+    display: none; }
+
+.doradztwo_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .doradztwo_item-grey {
   background-color: #F9F9F9; }
   .doradztwo_item-grey h4 {
     color: #4B4A52; }
-  .doradztwo_item-grey button {
+  .doradztwo_item-grey .btn-show_more {
     border: 2px solid #4B4A52;
     color: #4B4A52; }
-    .doradztwo_item-grey button:hover {
+    .doradztwo_item-grey .btn-show_more:hover {
       background-color: #4B4A52;
       color: #F9F9F9; }
   .doradztwo_item-grey .doradztwo_list li {
+    color: #4B4A52; }
+  .doradztwo_item-grey .btn-close {
     color: #4B4A52; }
 
 .doradztwo_item-turkus {
   background-color: #1D9A9E; }
   .doradztwo_item-turkus h4 {
     color: #ffffff; }
-  .doradztwo_item-turkus button {
+  .doradztwo_item-turkus .btn-show_more {
     border: 2px solid #ffffff;
     color: #ffffff; }
-    .doradztwo_item-turkus button:hover {
+    .doradztwo_item-turkus .btn-show_more:hover {
       background-color: #ffffff;
       color: #1eb2b7; }
   .doradztwo_item-turkus .doradztwo_list li {
+    color: #ffffff; }
+  .doradztwo_item-turkus .btn-close {
     color: #ffffff; }
 
 .doradztwo_item-darkgrey {
   background-color: #ADADAD; }
   .doradztwo_item-darkgrey h4 {
     color: #4B4A52; }
-  .doradztwo_item-darkgrey button {
+  .doradztwo_item-darkgrey .btn-show_more {
     border: 2px solid #4B4A52;
     color: #4B4A52; }
-    .doradztwo_item-darkgrey button:hover {
+    .doradztwo_item-darkgrey .btn-show_more:hover {
       background-color: #4B4A52;
       color: #ADADAD; }
   .doradztwo_item-darkgrey .doradztwo_list li {
+    color: #4B4A52; }
+  .doradztwo_item-darkgrey .btn-close {
     color: #4B4A52; }
 
 .icons {
@@ -419,14 +442,68 @@ button {
   height: auto;
   margin-bottom: 20px; }
 
+/*style to display one item from doradztwo*/
 .hide {
   display: none; }
 
-/*.doradztwo_list li {
-    margin: 7px;
-    line-height: 20px;
-    font-size: 17px;
-}*/
+.show {
+  width: 94%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  position: relative; }
+  .show .btn-show_more {
+    display: none; }
+  .show .doradztwo_list {
+    width: 50%;
+    display: block;
+    width: auto;
+    line-height: 1.5;
+    font-size: 16px;
+    margin: 20px; }
+    .show .doradztwo_list li {
+      margin: 7px; }
+  .show .doradztwo_header {
+    width: 60%;
+    padding: 10px; }
+  .show .btn-close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 23px; }
+
+.decrease {
+  width: 18%;
+  height: 200px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2; }
+  .decrease h4 {
+    font-size: 15px;
+    margin-bottom: 15px; }
+  .decrease .icons {
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px; }
+  .decrease .btn-show_more {
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px; }
+
 .szkolenia {
   margin-top: 80px;
   font-family: "Fira Sans", sans-serif;

@@ -24,7 +24,7 @@
 
 .doradztwo_item {
     box-sizing: border-box;
-    width:350px;
+    width:30%;
     border:1px solid black;
     height: 320px;
     display: flex;
@@ -35,7 +35,7 @@
     padding: 10px;
     margin: 7px;
     
-    & button {
+    & .btn-show_more {
         width:130px;
         height: 40px;
         border-radius:3px;
@@ -48,16 +48,31 @@
         text-transform: uppercase;
         font-size: 25px;
     }
+    
+    .doradztwo_list {
+        display: none;
+    }
+    
+    .btn-close {
+        display: none;
+    }
+}
+
+.doradztwo_header {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
 }
 
 .doradztwo_item-grey {
     background-color: $lightgrey;
     
-    & h4 {
+    h4 {
         color:$blackgrey;
     }
     
-     & button {
+     .btn-show_more {
         border:2px solid $blackgrey;
         color:$blackgrey;
          
@@ -67,7 +82,11 @@
          }
     }
     
-    & .doradztwo_list li {
+    .doradztwo_list li {
+        color:$blackgrey;
+    }
+    
+    .btn-close {
         color:$blackgrey;
     }
 }
@@ -79,7 +98,7 @@
         color:$white;
     }
     
-     & button {
+     & .btn-show_more {
         border:2px solid $white;
         color:$white;
          
@@ -92,6 +111,10 @@
     & .doradztwo_list li {
         color:$white;
     }
+    
+    .btn-close {
+        color:$white;
+    }
 }
 
 .doradztwo_item-darkgrey {
@@ -101,7 +124,7 @@
         color:$blackgrey;
     }
     
-     & button {
+     & .btn-show_more {
         border:2px solid $blackgrey;
         color:$blackgrey;
          
@@ -114,6 +137,10 @@
      & .doradztwo_list li {
         color:$blackgrey;
     }
+    
+    .btn-close {
+        color:$blackgrey;
+    }
 }
 
 .icons {
@@ -122,18 +149,75 @@
     margin-bottom: 20px;
 }
 
+/*style to display one item from doradztwo*/
+
 .hide {
     display: none;
 }
 
-/*.doradztwo_list li {
-    margin: 7px;
-    line-height: 20px;
-    font-size: 17px;
-}*/
+.show {
+    width:94%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    order:1;
+    position:relative;
+    
+    .btn-show_more {
+        display:none;
+    }
+    
+    .doradztwo_list {
+        width:50%;
+        display: block;
+        width:auto;
+        line-height: 1.5;
+        font-size: 16px;
+        margin: 20px;
+        
+        li {
+            margin:7px;
+        }
+    }
+    
+    .doradztwo_header {
+        width:60%;
+        padding:10px;
+    }
+    
+    .btn-close {
+        display: block;
+        position:absolute;
+        top:20px;
+        right:25px;
+        font-size:23px;
+    }
 
+}
 
-
-
-
+.decrease {
+    width:18%;
+    height:200px;
+    order:2;
+    
+    h4 {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .icons {
+        width:70px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .btn-show_more {
+        width:100px;
+        height: 30px;
+        border-radius:3px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 13px;
+    }
+}
 
