@@ -51,3 +51,10 @@
     height: 80px;
     width:auto;
 }
+
+.header_publikacje {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 0;
+}

@@ -1,10 +1,4 @@
-.publikacje {
-    img {
-        width:300px;
-        height: 180px;
-        margin-right: 50px;
-    }
-    
+.publikacje {    
     h6 {
         font-size:27px;
         font-weight: bold;
@@ -46,6 +40,13 @@
     .icon-btn {
         margin-right: 10px;
         font-size: 25px;
+    }
+    
+    img {
+        max-width:300px;
+        min-width: 300px;
+        height: 180px;
+        margin-right: 50px;
     }
 }
 
@@ -104,5 +105,20 @@
     input {
         margin-right: 10px;
         }
+}
+
+.publikacje_page {
+    padding-top: 50px;
+    
+    .publikacje_item {
+        padding-bottom: 30px;
+        border-bottom: none;
+    }
+    
+     .first {
+        padding-top: 30px;
+        border-top: 1px solid $linegrey;  
+        border-bottom: 1px solid $linegrey;
+    }
 }
 

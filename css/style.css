@@ -289,6 +289,19 @@ button {
   height: 80px;
   width: auto; }
 
+.header_publikacje {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 0; }
+
 .hero {
   height: 100vh;
   background: url(../../img/backgrounds/morze.jpg);
@@ -309,6 +322,11 @@ button {
   position: relative;
   top: 30px;
   left: 100px; }
+
+/*on publikacje page*/
+.hero_publikacje {
+  background: url(../../img/backgrounds/wiezowce.jpg);
+  height: 100vh; }
 
 .kancelaria {
   font-family: "Fira Sans", sans-serif;
@@ -664,11 +682,6 @@ button {
     color: #ffffff;
     background-color: #1D9A9E; }
 
-.publikacje img {
-  width: 300px;
-  height: 180px;
-  margin-right: 50px; }
-
 .publikacje h6 {
   font-size: 27px;
   font-weight: bold;
@@ -709,6 +722,11 @@ button {
   .publikacje_item .icon-btn {
     margin-right: 10px;
     font-size: 25px; }
+  .publikacje_item img {
+    max-width: 300px;
+    min-width: 300px;
+    height: 180px;
+    margin-right: 50px; }
 
 .newsletter {
   display: -webkit-box;
@@ -769,6 +787,16 @@ button {
   width: 80%; }
   .checkbox input {
     margin-right: 10px; }
+
+.publikacje_page {
+  padding-top: 50px; }
+  .publikacje_page .publikacje_item {
+    padding-bottom: 30px;
+    border-bottom: none; }
+  .publikacje_page .first {
+    padding-top: 30px;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6; }
 
 .porady {
   padding-bottom: 80px;
