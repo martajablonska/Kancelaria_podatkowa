@@ -1,0 +1,38 @@
+button {
+    cursor:pointer;
+}
+
+.btn-turkus {
+    border-radius:2px;
+    background-color: $turkus;
+    color:$white;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+.btn-turkus:hover {
+    background-color: $turkuslight;
+}
+
+.btn-other_page {   
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-bottom: 50px;
+    
+    button {
+        border:3px solid $turkus;
+        color:$turkus;
+        border-radius:3px;
+        width:230px;
+        height: 50px;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    button:hover {
+        color:$white;
+        background-color: $turkus;
+    }        
+}
