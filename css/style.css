@@ -200,6 +200,28 @@ button {
   width: 90%;
   line-height: 1.5; }
 
+.btn-other_page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  margin-bottom: 50px; }
+  .btn-other_page button {
+    border: 3px solid #1D9A9E;
+    color: #1D9A9E;
+    border-radius: 3px;
+    width: 230px;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold; }
+  .btn-other_page button:hover {
+    color: #ffffff;
+    background-color: #1D9A9E; }
+
 .header_bar {
   height: 90px;
   position: fixed;
@@ -620,7 +642,7 @@ button {
     height: 40px;
     width: 170px; }
 
-.blog_archive {
+.btn-other_page {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -629,7 +651,7 @@ button {
           justify-content: center;
   margin: auto;
   margin-bottom: 50px; }
-  .blog_archive button {
+  .btn-other_page button {
     border: 3px solid #1D9A9E;
     color: #1D9A9E;
     border-radius: 3px;
@@ -638,7 +660,7 @@ button {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold; }
-  .blog_archive button:hover {
+  .btn-other_page button:hover {
     color: #ffffff;
     background-color: #1D9A9E; }
 
@@ -659,9 +681,7 @@ button {
 
 .publikacje .first {
   padding-top: 30px;
-  padding-bottom: 30px;
-  border-top: 1px solid #d6d6d6;
-  border-bottom: 1px solid #d6d6d6; }
+  border-top: 1px solid #d6d6d6; }
 
 .publikacje_item {
   display: -webkit-box;
@@ -677,7 +697,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 40px 0; }
+  margin: 40px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d6d6d6; }
   .publikacje_item button {
     color: #1D9A9E;
     font-weight: bold;
@@ -729,12 +751,12 @@ button {
     border: none; }
   .newsletter_form button {
     color: #ffffff;
-    background-color: #1eb2b7;
+    background-color: #4B4A52;
     width: 200px;
     font-weight: bold;
     text-transform: uppercase; }
   .newsletter_form button:hover {
-    background-color: #4B4A52; }
+    background-color: #1eb2b7; }
 
 .checkbox {
   display: -webkit-box;

@@ -19,9 +19,7 @@
     
     .first {
         padding-top: 30px;
-        padding-bottom: 30px;
-        border-top: 1px solid $linegrey; 
-        border-bottom: 1px solid $linegrey;   
+        border-top: 1px solid $linegrey;  
     }
        
 }
@@ -31,7 +29,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin:40px 0;     
+    margin:40px 0;  
+    padding-bottom: 30px;
+    border-bottom: 1px solid $linegrey;
     
     button {
         color:$turkus;
@@ -84,14 +84,14 @@
     
     button {
         color:$white;
-        background-color: $turkuslight;
+        background-color: $blackgrey;
         width:200px;
         font-weight: bold;
         text-transform: uppercase;
     }
     
     button:hover {
-        background-color: $blackgrey;
+        background-color: $turkuslight;
     }
 
 }
