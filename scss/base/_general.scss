@@ -15,6 +15,11 @@ a {
     }
 }
 
+:hover {
+    transition: all 0.3s;  
+}
+
+
 .container {
     width:85vw;
     max-width:1300px;
@@ -22,9 +27,13 @@ a {
     overflow-y: hidden;
 }
 
-:hover {
-    transition: all 0.3s;  
+@media (max-width:1200px) {
+    .container {
+        width:90vw;
+    }
 }
+
+
 
 
 

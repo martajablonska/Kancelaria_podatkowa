@@ -58,6 +58,17 @@
     }
 }
 
+@media (max-width:1200px) {
+    .doradztwo_item {
+        width:30%;
+        height: 270px;
+        
+         h4 {
+            font-size: 20px;
+        }
+    }
+}
+
 .doradztwo_header {
     display: flex;
     flex-direction: column;
@@ -147,6 +158,10 @@
     width:100px;
     height: auto;
     margin-bottom: 20px;
+}
+
+@media (max-width:1200px) {
+    
 }
 
 /*style to display one item from doradztwo*/

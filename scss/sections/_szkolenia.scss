@@ -83,6 +83,57 @@
     p {
         color:$blackgrey;
     }
+}
+
+@media (max-width:1200px) {
+    .szkolenia_list {
+        
+         h4 {
+            margin-top: 10px;
+        }
+        
+         li {
+            margin:10px 0;
+            line-height: 1.4;
+        }
+        
+        img {
+            width:400px;
+            height: auto;
+            margin-right: 45px;
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    
+    .szkolenia {
+        p {
+            font-size:17px;
+        }
+    }
+    
+    .szkolenia_list {
+        display: flex;
+        flex-direction:column;
+        padding-bottom: 30px;
 
 
+        img {
+            width:100%;
+            margin-bottom: 20px;
+        }
+        
+        ul {
+            margin-left: 20px;
+        }
+    }
+    
+    .szkolenia_aside {
+        
+ 
+         * > p {
+            font-size: 17px;
+        }
+    
 }

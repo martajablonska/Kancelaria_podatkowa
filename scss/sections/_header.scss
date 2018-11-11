@@ -47,6 +47,22 @@
     }
 }
 
+@media (max-width:1200px) {
+    .header_menu {
+        width:90%;
+    }
+}
+
+@media (max-width:1000px) {
+    .header_menu {
+        width:97%;
+    }
+}
+
+/*hamburger @media (max-width:950px) {
+    
+}*/
+
 .logotype {
     height: 80px;
     width:auto;

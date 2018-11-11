@@ -78,3 +78,27 @@
     font-weight: bold;
     color:$blackgrey;
 }
+
+@media (max-width:1200px) {
+    .porady_form {
+        width:47%;
+    }
+}
+
+@media (max-width:1000px) {
+    .porady_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .porady_form {
+        width:100%;
+        order:2;
+        margin-top: 20px;
+    }
+    
+    .porady_descr {
+        width:100%;
+    }
+}

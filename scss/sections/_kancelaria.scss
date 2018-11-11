@@ -26,3 +26,14 @@
     }
 }
 
+@media (max-width:1000px) {
+    .kancelaria_descr {
+        margin-left: 30px;
+        width:75%;
+    
+    p {
+        color:$blackgrey;
+        font-size:15px;
+        }
+}
+}
