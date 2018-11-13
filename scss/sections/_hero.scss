@@ -25,3 +25,20 @@
     background: url(../../img/backgrounds/wiezowce.jpg);
     height: 100vh;
 }
+
+@media (max-width:800px) {
+    
+    .hero_title {
+        position: relative;
+        top:30px;
+        left:20px;
+    }
+}
+
+@media (max-width:600px) {
+    .hero_title {
+         position: relative;
+        top:30px;
+        left:0;
+    }
+}

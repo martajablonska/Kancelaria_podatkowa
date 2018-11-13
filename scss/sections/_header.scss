@@ -59,9 +59,12 @@
     }
 }
 
-/*hamburger @media (max-width:950px) {
-    
-}*/
+@media (max-width:950px) {
+    .header_nav {
+        display:none;
+    }
+
+}
 
 .logotype {
     height: 80px;

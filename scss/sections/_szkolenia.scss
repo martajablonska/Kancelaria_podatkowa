@@ -103,6 +103,10 @@
             margin-right: 45px;
         }
     }
+    
+    .szkolenia_container {
+        padding: 0;
+    }
 }
 
 @media (max-width:1000px) {
@@ -117,10 +121,10 @@
         display: flex;
         flex-direction:column;
         padding-bottom: 30px;
-
-
+        
         img {
             width:100%;
+            margin-right:0;
             margin-bottom: 20px;
         }
         
@@ -130,10 +134,23 @@
     }
     
     .szkolenia_aside {
-        
- 
-         * > p {
+         
+        * > p {
             font-size: 17px;
         }
+    }
+}
+
+@media (max-width:800px) {
+    .szkolenia {
+        text-align: justify;
+    }
     
+    .szkolenia_description {
+
+        p {
+            text-align: justify;
+            width:100%;
+        }
+    }
 }

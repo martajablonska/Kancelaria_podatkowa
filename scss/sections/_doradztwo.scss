@@ -160,10 +160,6 @@
     margin-bottom: 20px;
 }
 
-@media (max-width:1200px) {
-    
-}
-
 /*style to display one item from doradztwo*/
 
 .hide {
@@ -233,6 +229,12 @@
         text-transform: uppercase;
         font-weight: bold;
         font-size: 13px;
+    }
+}
+
+@media (max-width:600px) {
+    .doradztwo {
+        display:none;
     }
 }
 

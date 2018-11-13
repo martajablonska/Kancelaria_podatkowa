@@ -118,7 +118,32 @@ footer {
      .footer_contact {
         width:70%;
     }
+}
 
+@media (max-width:800px) {
+    
+    .footer_title {
+        padding-top:50px;
+        margin-bottom: 20px;  
+    }
+    
+    
+    .footer_left {
+        
+        h3, h4 {
+            line-height: 1.3;
+        }
+    }
+    .footer_contact {
+        width:90%;
+    }
+}
+
+@media (max-width:600px) {
+    .footer_contact {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 

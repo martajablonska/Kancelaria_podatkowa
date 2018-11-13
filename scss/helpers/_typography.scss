@@ -6,6 +6,12 @@ h1 {
     color:$white;
 }
 
+@media (max-width:800px) {
+    h1 {
+        font-size:60px;
+    }
+}
+
 h2 {
     font-size:40px;
     font-weight:bold;
