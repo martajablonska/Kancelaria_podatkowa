@@ -170,6 +170,19 @@ p {
   width: 90%;
   line-height: 1.5; }
 
+@media (max-width: 400px) {
+  h2 {
+    width: 200px; }
+  h2:after {
+    content: '';
+    display: table;
+    height: 3px;
+    width: 100px;
+    background-color: #1D9A9E;
+    position: relative;
+    top: 10px;
+    left: 27%; } }
+
 button {
   cursor: pointer; }
 
@@ -296,6 +309,12 @@ a {
     .header_menu li a:hover {
       color: #1D9A9E; }
 
+.btn-nav {
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #4B4A52;
+  font-weight: 400; }
+
 @media (max-width: 1200px) {
   .header_menu {
     width: 90%; } }
@@ -304,9 +323,36 @@ a {
   .header_menu {
     width: 97%; } }
 
-@media (max-width: 950px) {
-  .header_nav {
+@media (min-width: 951px) {
+  .btn-nav {
     display: none; } }
+
+@media (max-width: 950px) {
+  .btn-nav {
+    display: block; }
+  .header_menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    height: 50vh;
+    width: 100vw;
+    background-color: #ffff;
+    padding-left: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1;
+    -webkit-box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+            box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4); } }
 
 .logotype {
   height: 80px;
