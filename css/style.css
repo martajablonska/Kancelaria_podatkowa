@@ -425,7 +425,8 @@ a {
 .kancelaria {
   font-family: "Fira Sans", sans-serif;
   background-color: #F9F9F9;
-  color: #000000; }
+  color: #000000;
+  position: relative; }
 
 .kancelaria_container {
   display: -webkit-box;
@@ -452,6 +453,13 @@ a {
   width: 75%; }
   .kancelaria_descr p {
     color: #4B4A52; }
+
+.logo_kdp {
+  width: 180px;
+  height: auto;
+  position: absolute;
+  bottom: 40px;
+  right: 120px; }
 
 @media (max-width: 1000px) {
   .kancelaria_descr {

@@ -2,6 +2,7 @@
     font-family: $mainfont;
     background-color: $lightgrey;
     color: $black; 
+    position: relative;
 }
 .kancelaria_container {
     display: flex;
@@ -24,6 +25,14 @@
     p {
         color:$blackgrey;
     }
+}
+
+.logo_kdp {
+    width:180px;
+    height: auto;
+    position:absolute;
+    bottom:40px;
+    right:120px;
 }
 
 @media (max-width:1000px) {
