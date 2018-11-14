@@ -106,8 +106,41 @@
 }
 
 .header_publikacje {
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    font-family: $mainfont;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 0;
+    
+      li {
+        font-size: 17px;
+        text-transform: uppercase;
+        text-align: right;
+          
+        @media (max-width:550px) {
+            font-size:14px;
+        }
+          
+        @media (max-width:550px) {
+            font-size:12px;
+        }
+    
+        a {
+            color:$blackgrey;
+            font-weight: 400;
+        }
+        
+        a:hover {
+            color: $turkus; 
+        }
+    }
+    
+    @media (max-width:550px) {
+        width:100%;
+    }
+    
+    
 }

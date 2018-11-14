@@ -123,6 +123,25 @@
     }
 }
 
+.blog_post {
+    width:85vw;
+    max-width:1300px;
+    margin:auto;
+    padding-top:40px;
+    overflow-y: hidden;
+    
+    @media (max-width:600px) {
+        width:95vw;
+        padding-top:20px;
+        
+        h2 {
+            line-height: 1;
+        }
+    }
+    
+    
+}
+
 @media (max-width:1000px) {
     .blog_container {
         display: flex;
@@ -142,6 +161,12 @@
         button {
             margin-top: 15px;   
         }
+    }
+    
+    .posts_row {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
     }
 }
 
