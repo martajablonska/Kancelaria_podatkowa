@@ -1222,6 +1222,8 @@ a {
     width: 47%; } }
 
 @media (max-width: 1000px) {
+  .porady {
+    padding-bottom: 40px; }
   .porady_container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1239,6 +1241,8 @@ a {
         -ms-flex-order: 2;
             order: 2;
     margin-top: 20px; }
+    .porady_form textarea {
+      height: 200px; }
   .porady_descr {
     width: 100%; } }
 

@@ -44,7 +44,6 @@
 
         }
         
-        
         button {
             margin-top: 35px;
             height: 40px;
@@ -86,6 +85,11 @@
 }
 
 @media (max-width:1000px) {
+    
+    .porady {
+        padding-bottom: 40px;
+    }
+    
     .porady_container {
         display: flex;
         flex-direction: column;
@@ -96,6 +100,10 @@
         width:100%;
         order:2;
         margin-top: 20px;
+        
+        textarea {
+            height: 200px;
+        }
     }
     
     .porady_descr {
