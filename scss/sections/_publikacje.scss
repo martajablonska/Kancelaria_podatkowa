@@ -91,7 +91,6 @@
     button:hover {
         background-color: $turkuslight;
     }
-
 }
 
 .checkbox {
@@ -164,6 +163,34 @@
             height: auto;
             margin-right: 0;
             margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width:500px) {
+     .newsletter_form {
+        width:90%;
+    }
+}
+
+@media (max-width:400px) {
+    .newsletter_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:auto;
+        margin-bottom: 20px;
+        height: 100px;
+        width:90%;
+        border:none;
+        
+        input {
+            height: 50px;
+        }
+    
+        button {
+            height: 50px;
+            width:100%;
         }
     }
 }
