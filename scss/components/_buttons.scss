@@ -36,3 +36,20 @@ button {
         background-color: $turkus;
     }        
 }
+
+.btn-top {
+    width:35px;
+    height: 35px;
+    background-color: $mediumgrey;
+    position:fixed;
+    top:92vh;
+    right:18px;
+    
+    .fa-arrow-up {
+        color:$white;
+    }
+}
+
+.btn-top:hover {
+    background-color: $turkus;
+}

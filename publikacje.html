@@ -15,11 +15,11 @@
     <header class="header_bar">
             <div class="header_container container">
             <div clas="header_logo">
-                <a href="index.html"><img class="logotype" src="img/logo/logotyp.png" alt="Logo Anna Resiak Kancelaria Doradcy Podatkowego"></a>
+                <a href="#main"><img class="logotype" src="img/logo/logotyp.png" alt="Logo Anna Resiak Kancelaria Doradcy Podatkowego"></a>
             </div>
             <nav class="header_nav">
                 <ul class="header_menu header_publikacje">
-                    <li><a href="index.html"><span class="fas fa-arrow-left"></span>  Powrót do strony głównej</a></li>
+                    <li><a href="index.html">Powrót do strony głównej</a></li>
                 </ul>
             </nav>
         </div>    
@@ -30,8 +30,10 @@
     <!--<section class="hero hero_publikacje">
     </section>-->
  <!-----------------       PUBLIKACJE   ---------------------->    
-     <section class="publikacje container publikacje_page">
-        <h2>Publikacje</h2>
+    <main>
+    <span id="main"></span>  
+    <section class="publikacje container publikacje_page">    
+         <h2>Publikacje</h2>
         <div class="publikacje_item first">
             <img src="img/publikacje/public1.jpg" alt="">
             <div>  
@@ -61,7 +63,7 @@
                 <p class="p-check">Zapoznałem się z polityką prywatności. Wyrażam zgodę na przetwarzanie moich danych osobowych przez Kancelarię doradcy podatkowego Anna Resiak z siedzibą w Krakowie, ul. Sosnowieckiej 25d/16 do celów marketingu produktów i usług MISP oraz przesyłanie informacji handlowych obejmujących produkty i usługi Kancelarii drogą elektroniczną. Zgoda może być cofnięta przeze mnie w każdym czasie poprzez wysłanie maila na adres: sekretariat@resiak-kancelaria.pl</p>
             </div>
     </section>
-        
+    </main>    
     <footer>
         <div class="container">
             <div class="footer">
@@ -99,5 +101,7 @@
             </div>
         </div>
     </footer>
+     <script src="js/jquery.js"></script>
+    <script src="js/scroll.js"></script>
     </body>
 </html>

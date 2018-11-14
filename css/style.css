@@ -218,6 +218,19 @@ button {
     color: #ffffff;
     background-color: #1D9A9E; }
 
+.btn-top {
+  width: 35px;
+  height: 35px;
+  background-color: #ADADAD;
+  position: fixed;
+  top: 92vh;
+  right: 18px; }
+  .btn-top .fa-arrow-up {
+    color: #ffffff; }
+
+.btn-top:hover {
+  background-color: #1D9A9E; }
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
