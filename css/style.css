@@ -448,6 +448,18 @@ a {
       -ms-flex-direction: row;
           flex-direction: row;
   padding-bottom: 70px; }
+  @media (max-width: 800px) {
+    .kancelaria_container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
 
 .kancelaria_photo {
   height: 350px;
@@ -461,36 +473,38 @@ a {
   width: 75%; }
   .kancelaria_descr p {
     color: #4B4A52; }
+    @media (max-width: 1000px) {
+      .kancelaria_descr p {
+        color: #4B4A52;
+        font-size: 15px; } }
+  @media (max-width: 1000px) {
+    .kancelaria_descr {
+      margin-left: 30px;
+      width: 75%; } }
+  @media (max-width: 800px) {
+    .kancelaria_descr {
+      margin-left: 0;
+      margin-top: 30px;
+      width: 100%;
+      text-align: justify; } }
 
 .logo_kdp {
   width: 180px;
   height: auto;
   position: absolute;
-  bottom: 70px;
+  bottom: 60px;
   right: 100px; }
-
-@media (max-width: 1000px) {
-  .kancelaria_descr {
-    margin-left: 30px;
-    width: 75%; }
-    .kancelaria_descr p {
-      color: #4B4A52;
-      font-size: 15px; } }
-
-@media (max-width: 800px) {
-  .kancelaria_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .kancelaria_descr {
-    margin-left: 0;
-    margin-top: 30px;
-    width: 100%;
-    text-align: justify; } }
+  @media (max-width: 1000px) {
+    .logo_kdp {
+      bottom: 20px;
+      right: 100px;
+      width: 150px; } }
+  @media (max-width: 800px) {
+    .logo_kdp {
+      bottom: 10px; } }
+  @media (max-width: 600px) {
+    .logo_kdp {
+      width: 130px; } }
 
 .doradztwo {
   font-family: "Fira Sans", sans-serif; }

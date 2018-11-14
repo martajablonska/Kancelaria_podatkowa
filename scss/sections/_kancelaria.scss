@@ -8,6 +8,12 @@
     display: flex;
     flex-direction: row;
     padding-bottom: 70px;
+    
+    @media (max-width:800px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .kancelaria_photo {
@@ -23,39 +29,45 @@
     
     p {
         color:$blackgrey;
+        
+        @media (max-width:1000px) {
+            color:$blackgrey;
+            font-size:15px;
+        }
     }
+    
+    @media (max-width:1000px) {
+        margin-left: 30px;
+        width:75%;
+    }
+    
+    @media (max-width:800px) {
+        margin-left: 0;
+        margin-top: 30px;
+        width:100%;
+        text-align: justify;
+    }
+
 }
 
 .logo_kdp {
     width:180px;
     height: auto;
     position:absolute;
-    bottom:70px;
+    bottom:60px;
     right:100px;
-}
-
-@media (max-width:1000px) {
-    .kancelaria_descr {
-        margin-left: 30px;
-        width:75%;
     
-    p {
-        color:$blackgrey;
-        font-size:15px;
-        }
-    }
-}
-
-@media (max-width:800px) {
-    .kancelaria_container {
-        display: flex;
-        flex-direction: column;
+    @media (max-width:1000px) {
+        bottom:20px;
+        right:100px;
+        width:150px;
     }
     
-    .kancelaria_descr {
-        margin-left: 0;
-        margin-top: 30px;
-        width:100%;
-        text-align: justify;
+     @media (max-width:800px) {
+        bottom:10px;
     }
+    
+    @media (max-width:600px) {
+        width:130px;
+    }  
 }
