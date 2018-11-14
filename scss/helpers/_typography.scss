@@ -85,6 +85,10 @@ p {
 .icon {
     margin-right: 20px;
     font-size: 20px;
+    
+    @media (max-width:400px) {
+        margin-right: 5px;
+    }
 }
 
 .p-check {

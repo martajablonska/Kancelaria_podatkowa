@@ -151,6 +151,9 @@ p {
 .icon {
   margin-right: 20px;
   font-size: 20px; }
+  @media (max-width: 400px) {
+    .icon {
+      margin-right: 5px; } }
 
 .p-check {
   font-size: 12px !important;
@@ -1334,8 +1337,7 @@ footer {
     margin-right: 7px; }
 
 .fa-linkedin {
-  font-size: 26px;
-  margin-right: 20px; }
+  font-size: 26px; }
 
 @media (max-width: 1400px) {
   .footer_left {
@@ -1383,3 +1385,9 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; } }
+
+@media (max-width: 400px) {
+  .footer_contact {
+    width: 100%; }
+  .footer_adres p {
+    font-size: 13px; } }
