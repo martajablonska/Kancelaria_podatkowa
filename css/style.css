@@ -816,8 +816,10 @@ a {
       margin-bottom: 20px; }
     .szkolenia_list ul {
       margin-left: 20px; }
-  .szkolenia_aside * > p {
-    font-size: 17px; } }
+  .szkolenia_aside {
+    padding-bottom: 40px; }
+    .szkolenia_aside * > p {
+      font-size: 17px; } }
 
 @media (max-width: 800px) {
   .szkolenia {
@@ -825,6 +827,14 @@ a {
   .szkolenia_description p {
     text-align: justify;
     width: 100%; } }
+
+@media (max-width: 600px) {
+  .szkolenia_description p {
+    font-size: 15px; }
+  .szkolenia_container li {
+    font-size: 15px; }
+  .szkolenia_aside p {
+    font-size: 15px; } }
 
 .blog_container {
   display: -webkit-box;

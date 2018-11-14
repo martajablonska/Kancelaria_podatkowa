@@ -134,7 +134,8 @@
     }
     
     .szkolenia_aside {
-         
+        padding-bottom:40px;
+        
         * > p {
             font-size: 17px;
         }
@@ -151,6 +152,26 @@
         p {
             text-align: justify;
             width:100%;
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .szkolenia_description {
+        p {
+            font-size:15px;
+        }
+    }
+    
+    .szkolenia_container {
+        li {
+            font-size:15px;
+        }
+    }
+    
+    .szkolenia_aside {
+        p {
+            font-size:15px;
         }
     }
 }
