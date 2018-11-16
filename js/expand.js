@@ -1,45 +1,48 @@
-const doradztwo = document.querySelector('#doradztwo');
-const btn = doradztwo.querySelector('.btn-show_more');
-const btnClose = doradztwo.querySelector('.btn-close');
-const container = document.querySelector('.doradztwo_container');
+const arrayItems = [...document.querySelectorAll('.doradztwo_item')];
+const closeButtons = [...document.querySelectorAll('.btn-close')];
+const openButtons = [...document.querySelectorAll('.btn-show_more')];
 
-
-
-const otherItems = [...document.querySelectorAll('.doradztwo_item')];
-
-const arrayBtn = [...document.querySelectorAll('.btn-show_more')];
-
-container.addEventListener('click', function(e) {
-    const wasClicked = e.target;
-    console.log(wasClicked);
-});
-
-
-
-btn.addEventListener('click', function() {
-    doradztwo.classList.add('show');
+                           
+openButtons.map(function(button){
     
-    otherItems.forEach(function(item) {
-        if(item !== doradztwo) {
-            item.classList.add('decrease');
-        }
+    button.addEventListener('click', function(e) {
+        
+        const parentBtn = button.parentNode.parentNode;
+        
+            arrayItems.forEach(function(item) {
+                item.classList.remove('decrease');    
+            }); 
+        
+            arrayItems.forEach(function(item) {
+                item.classList.remove('show');    
+            }); 
+            
+            parentBtn.classList.add('show');
+            
+            arrayItems.forEach(function(item) {
+                if(item !== parentBtn) { 
+                item.classList.add('decrease');
+                }
+            });  
     });
 });
 
-btnClose.addEventListener('click', function() {
-    doradztwo.classList.remove('show');
+closeButtons.map(function(button) {
     
-    otherItems.forEach(function(item) {
-        if(item !== doradztwo) {
-            item.classList.remove('decrease');
-        }
+    button.addEventListener('click', function() {
+        
+        const parentBtn = button.parentNode;
+        
+        parentBtn.classList.remove('show');
+
+        arrayItems.forEach(function(item) {
+            if(item !== parentBtn) {
+                item.classList.remove('decrease');
+            }
+        });
     });
 });
 
-
-
-/*const showMoreBtn = this.querySelector('.btn-show_more');
-const closeBtn = this.querySelector('.btn-close');*/
 
 
 

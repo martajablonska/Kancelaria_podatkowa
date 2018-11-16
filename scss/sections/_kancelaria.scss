@@ -3,6 +3,7 @@
     background-color: $lightgrey;
     color: $black; 
     position: relative;
+    overflow: visible !important;
 }
 .kancelaria_container {
     display: flex;

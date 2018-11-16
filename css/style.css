@@ -227,14 +227,20 @@ button {
   width: 35px;
   height: 35px;
   background-color: #ADADAD;
-  position: fixed;
-  top: 92vh;
-  right: 18px; }
+  margin-bottom: 20px; }
   .btn-top .fa-arrow-up {
     color: #ffffff; }
 
 .btn-top:hover {
   background-color: #1D9A9E; }
+
+.stick {
+  position: fixed;
+  top: 90vh;
+  right: 20px;
+  -webkit-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -258,7 +264,7 @@ a {
   width: 85vw;
   max-width: 1300px;
   margin: auto;
-  overflow-y: hidden; }
+  /*overflow-y: hidden;*/ }
 
 @media (max-width: 1200px) {
   .container {
@@ -462,7 +468,8 @@ a {
   font-family: "Fira Sans", sans-serif;
   background-color: #F9F9F9;
   color: #000000;
-  position: relative; }
+  position: relative;
+  overflow: visible !important; }
 
 .kancelaria_container {
   display: -webkit-box;
@@ -723,10 +730,6 @@ a {
     font-weight: bold;
     font-size: 13px; }
 
-@media (max-width: 600px) {
-  .doradztwo {
-    display: none; } }
-
 .szkolenia {
   margin-top: 80px;
   font-family: "Fira Sans", sans-serif;
@@ -914,14 +917,8 @@ a {
     background-color: #1D9A9E; }
 
 .posts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-top: 50px; }
+  padding-top: 50px;
+  position: relative; }
 
 .posts_row {
   display: -webkit-box;

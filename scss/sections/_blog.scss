@@ -58,9 +58,8 @@
 }
 
 .posts {
-    display: flex;
-    flex-direction: column;
     padding-top: 50px;
+    position: relative;
 }
 
 .posts_row {
@@ -137,9 +136,7 @@
         h2 {
             line-height: 1;
         }
-    }
-    
-    
+    }    
 }
 
 @media (max-width:1000px) {
