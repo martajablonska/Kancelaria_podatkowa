@@ -14,25 +14,29 @@ function debounce(func, wait = 20, immediate = true) {
     };
 
 
-const sliderImages = document.querySelectorAll('.hover_img');
+const sliderItems = [...document.querySelectorAll('.slidein')];
 
 
 function slide(e) {
-    sliderImages.forEach(sliderImage => {
+    sliderItems.forEach(sliderItem => {
         
-        const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height/2;
-        const imageBottom = sliderImage.offsetTop + sliderImage.height;
+        const slideInAt = (window.scrollY + window.innerHeight) - 200;
         
-        const isHalfShown = slideInAt > sliderImage.offsetTop;
+        console.log(slideInAt);
+        const imageBottom = sliderItem.offsetTop + sliderItem.offsetHeight;
+        
+        const isHalfShown = slideInAt > sliderItem.offsetTop;
         const isNotScrolledPast = window.scrollY < imageBottom;
         
         if(isHalfShown && isNotScrolledPast) {
-            sliderImage.classList.add('active');
+            sliderItem.classList.add('active');
         } /*else {
             sliderImage.classList.remove('active');
         }*/ /*if i want to hide image after scroll */
 
     });
 };
+
+const cos = document.querySelector('.cos');
 
 window.addEventListener('scroll', debounce(slide));

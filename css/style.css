@@ -242,6 +242,21 @@ button {
   -o-transition: all 0.7s;
   transition: all 0.7s; }
 
+.slidein {
+  opacity: 0;
+  -webkit-transition: all .9s;
+  -o-transition: all .9s;
+  transition: all .9s;
+  -webkit-transform: translateY(30%);
+      -ms-transform: translateY(30%);
+          transform: translateY(30%); }
+
+.active {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%); }
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -465,6 +480,7 @@ a {
     height: 100vh;
 }*/
 .kancelaria {
+  height: 600px;
   font-family: "Fira Sans", sans-serif;
   background-color: #F9F9F9;
   color: #000000;

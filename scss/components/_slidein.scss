@@ -1,0 +1,11 @@
+.slidein {
+    opacity:0;
+    transition: all .9s; 
+    transform:translateY(30%);
+}
+
+.active {
+     opacity:1;
+    transform:translateY(0%);
+}
+

@@ -3,7 +3,7 @@ const closeButtons = [...document.querySelectorAll('.btn-close')];
 const openButtons = [...document.querySelectorAll('.btn-show_more')];
 
                            
-openButtons.map(function(button){
+openButtons.forEach(function(button){
     
     button.addEventListener('click', function(e) {
         
@@ -27,7 +27,7 @@ openButtons.map(function(button){
     });
 });
 
-closeButtons.map(function(button) {
+closeButtons.forEach(function(button) {
     
     button.addEventListener('click', function() {
         
