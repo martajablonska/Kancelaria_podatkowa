@@ -22,7 +22,6 @@ function slide(e) {
         
         const slideInAt = (window.scrollY + window.innerHeight) - 200;
         
-        console.log(slideInAt);
         const imageBottom = sliderItem.offsetTop + sliderItem.offsetHeight;
         
         const isHalfShown = slideInAt > sliderItem.offsetTop;
@@ -37,6 +36,5 @@ function slide(e) {
     });
 };
 
-const cos = document.querySelector('.cos');
-
 window.addEventListener('scroll', debounce(slide));
+

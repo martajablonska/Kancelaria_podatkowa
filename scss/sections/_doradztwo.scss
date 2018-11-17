@@ -15,11 +15,17 @@
 }
 
 .doradztwo_container {
-    margin:auto;
+    width:100%;
+    margin:0;
     margin-top:30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
+    @media(max-width:600px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .doradztwo_item {
@@ -35,6 +41,30 @@
     padding: 10px;
     margin: 7px;
     
+    @media (max-width:1200px) {
+        height: 300px;
+    }
+    
+    @media (max-width:1050px) {
+        height: 250px;
+    }
+    
+    @media (max-width:900px) {
+        height:230px;
+    }
+    
+    @media (max-width:800px) {
+        height:200px;
+    }
+    
+    @media (max-width:700px) {
+        height:180px;
+    }
+    
+    @media(max-width:600px) {
+        width:100%;
+    }
+    
     & .btn-show_more {
         width:130px;
         height: 40px;
@@ -42,11 +72,32 @@
         text-transform: uppercase;
         font-weight: bold;
         font-size: 15px;
+        
+        @media (max-width:800px) {
+            width:100px;
+            height: 30px;
+            font-size: 12px;
+        }
     }
     
     & h4 {
         text-transform: uppercase;
         font-size: 25px;
+        
+        @media (max-width:1200px) {
+            text-align: center;
+            font-size:23px;
+        }
+        
+        @media (max-width:1100px) {
+            margin-bottom:15px;
+            font-size:18px;
+        }
+        
+        @media (max-width:900px) {
+            font-size:16px;
+            margin-bottom: 10px;
+        }
     }
     
     .doradztwo_list {
@@ -58,16 +109,6 @@
     }
 }
 
-@media (max-width:1200px) {
-    .doradztwo_item {
-        width:30%;
-        height: 270px;
-        
-         h4 {
-            font-size: 20px;
-        }
-    }
-}
 
 .doradztwo_header {
     display: flex;
@@ -158,6 +199,14 @@
     width:100px;
     height: auto;
     margin-bottom: 20px;
+    
+    @media (max-width:1000px) {
+        margin-bottom: 10px;
+    }
+    
+    @media (max-width:800px) {
+        width:70px;
+    }
 }
 
 /*style to display one item from doradztwo*/
@@ -167,12 +216,34 @@
 }
 
 .show {
-    width:94%;
+    width:95%;
     display: flex;
     flex-direction: row;
     align-items: center;
     order:1;
     position:relative;
+    
+    @media (max-width:1100px) {
+        width:96%;
+    }
+    
+    @media (max-width:900px) {
+        width:97%;
+        display:flex;
+        flex-direction: column;    
+        
+        .icons {
+            display: none;
+        }
+    }
+    
+    @media (max-width:800px) {
+        height: 270px;
+    }
+    
+     @media (max-width:600px) {
+        height: auto;
+    }
     
     .btn-show_more {
         display:none;
@@ -186,14 +257,47 @@
         font-size: 16px;
         margin: 20px;
         
+        @media (max-width:1300px) {
+            font-size: 14px;
+            margin: 17px;
+        }
+        
+        @media (max-width:1100px) {
+            line-height: 1.3;
+        }   
+        
+        @media (max-width:600px) {
+            line-height: 1.1;
+            margin:15px 4px;
+        }
+        
         li {
             margin:7px;
+            
+            @media(max-width:1100px) {
+                 margin:4px;
+            }                    
         }
     }
     
     .doradztwo_header {
         width:60%;
         padding:10px;
+        
+        @media (max-width:900px) {
+            width:50%;
+            
+            h4 {
+                text-align:center;
+                font-size:18px;
+            }
+        }
+        
+        @media (max-width:900px) {
+            width:100%;
+
+        }
+            
     }
     
     .btn-close {
@@ -211,16 +315,46 @@
     height:200px;
     order:2;
     
+    @media (max-width:1100px) {
+        height: 170px;
+    }
+    
+    @media (max-width:900px) {
+        height: 150px;
+    }
+    
+    @media (max-width:800px) {
+        width:100%;
+        height: 100px;
+    }
+    
     h4 {
         font-size: 15px;
         margin-bottom: 15px;
+        
+        @media (max-width:1200px) {
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width:800px) {
+            font-size:16px;
+        }
     }
     
     .icons {
         width:70px;
         height: auto;
         margin-bottom: 10px;
-    }
+        
+          @media (max-width:1200px) {
+            width:60px;
+        }
+        
+         @media (max-width:800px) {
+            display: none;
+        }
+    }  
     
     .btn-show_more {
         width:100px;
@@ -229,10 +363,19 @@
         text-transform: uppercase;
         font-weight: bold;
         font-size: 13px;
+        
+         @media (max-width:1200px) {
+            width:90px;
+            height: 20px;
+            font-size: 11px;
+        }
+        
+        @media (max-width:800px) {
+            width:100px;
+            height: 30px;
+            font-size: 13px;
+        }
     }
 }
 
-@media (max-width:600px) {
-
-}
 

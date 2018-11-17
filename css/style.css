@@ -480,7 +480,6 @@ a {
     height: 100vh;
 }*/
 .kancelaria {
-  height: 600px;
   font-family: "Fira Sans", sans-serif;
   background-color: #F9F9F9;
   color: #000000;
@@ -566,7 +565,8 @@ a {
     margin-bottom: 30px; }
 
 .doradztwo_container {
-  margin: auto;
+  width: 100%;
+  margin: 0;
   margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -576,6 +576,15 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  @media (max-width: 600px) {
+    .doradztwo_container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
 
 .doradztwo_item {
   -webkit-box-sizing: border-box;
@@ -599,6 +608,24 @@ a {
   border: 1px solid #f7f3f3;
   padding: 10px;
   margin: 7px; }
+  @media (max-width: 1200px) {
+    .doradztwo_item {
+      height: 300px; } }
+  @media (max-width: 1050px) {
+    .doradztwo_item {
+      height: 250px; } }
+  @media (max-width: 900px) {
+    .doradztwo_item {
+      height: 230px; } }
+  @media (max-width: 800px) {
+    .doradztwo_item {
+      height: 200px; } }
+  @media (max-width: 700px) {
+    .doradztwo_item {
+      height: 180px; } }
+  @media (max-width: 600px) {
+    .doradztwo_item {
+      width: 100%; } }
   .doradztwo_item .btn-show_more {
     width: 130px;
     height: 40px;
@@ -606,20 +633,30 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px; }
+    @media (max-width: 800px) {
+      .doradztwo_item .btn-show_more {
+        width: 100px;
+        height: 30px;
+        font-size: 12px; } }
   .doradztwo_item h4 {
     text-transform: uppercase;
     font-size: 25px; }
+    @media (max-width: 1200px) {
+      .doradztwo_item h4 {
+        text-align: center;
+        font-size: 23px; } }
+    @media (max-width: 1100px) {
+      .doradztwo_item h4 {
+        margin-bottom: 15px;
+        font-size: 18px; } }
+    @media (max-width: 900px) {
+      .doradztwo_item h4 {
+        font-size: 16px;
+        margin-bottom: 10px; } }
   .doradztwo_item .doradztwo_list {
     display: none; }
   .doradztwo_item .btn-close {
     display: none; }
-
-@media (max-width: 1200px) {
-  .doradztwo_item {
-    width: 30%;
-    height: 270px; }
-    .doradztwo_item h4 {
-      font-size: 20px; } }
 
 .doradztwo_header {
   display: -webkit-box;
@@ -683,13 +720,19 @@ a {
   width: 100px;
   height: auto;
   margin-bottom: 20px; }
+  @media (max-width: 1000px) {
+    .icons {
+      margin-bottom: 10px; } }
+  @media (max-width: 800px) {
+    .icons {
+      width: 70px; } }
 
 /*style to display one item from doradztwo*/
 .hide {
   display: none; }
 
 .show {
-  width: 94%;
+  width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -704,6 +747,27 @@ a {
       -ms-flex-order: 1;
           order: 1;
   position: relative; }
+  @media (max-width: 1100px) {
+    .show {
+      width: 96%; } }
+  @media (max-width: 900px) {
+    .show {
+      width: 97%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .show .icons {
+        display: none; } }
+  @media (max-width: 800px) {
+    .show {
+      height: 270px; } }
+  @media (max-width: 600px) {
+    .show {
+      height: auto; } }
   .show .btn-show_more {
     display: none; }
   .show .doradztwo_list {
@@ -713,11 +777,34 @@ a {
     line-height: 1.5;
     font-size: 16px;
     margin: 20px; }
+    @media (max-width: 1300px) {
+      .show .doradztwo_list {
+        font-size: 14px;
+        margin: 17px; } }
+    @media (max-width: 1100px) {
+      .show .doradztwo_list {
+        line-height: 1.3; } }
+    @media (max-width: 600px) {
+      .show .doradztwo_list {
+        line-height: 1.1;
+        margin: 15px 4px; } }
     .show .doradztwo_list li {
       margin: 7px; }
+      @media (max-width: 1100px) {
+        .show .doradztwo_list li {
+          margin: 4px; } }
   .show .doradztwo_header {
     width: 60%;
     padding: 10px; }
+    @media (max-width: 900px) {
+      .show .doradztwo_header {
+        width: 50%; }
+        .show .doradztwo_header h4 {
+          text-align: center;
+          font-size: 18px; } }
+    @media (max-width: 900px) {
+      .show .doradztwo_header {
+        width: 100%; } }
   .show .btn-close {
     display: block;
     position: absolute;
@@ -731,13 +818,36 @@ a {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2; }
+  @media (max-width: 1100px) {
+    .decrease {
+      height: 170px; } }
+  @media (max-width: 900px) {
+    .decrease {
+      height: 150px; } }
+  @media (max-width: 800px) {
+    .decrease {
+      width: 100%;
+      height: 100px; } }
   .decrease h4 {
     font-size: 15px;
     margin-bottom: 15px; }
+    @media (max-width: 1200px) {
+      .decrease h4 {
+        font-size: 13px;
+        margin-bottom: 10px; } }
+    @media (max-width: 800px) {
+      .decrease h4 {
+        font-size: 16px; } }
   .decrease .icons {
     width: 70px;
     height: auto;
     margin-bottom: 10px; }
+    @media (max-width: 1200px) {
+      .decrease .icons {
+        width: 60px; } }
+    @media (max-width: 800px) {
+      .decrease .icons {
+        display: none; } }
   .decrease .btn-show_more {
     width: 100px;
     height: 30px;
@@ -745,6 +855,16 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 13px; }
+    @media (max-width: 1200px) {
+      .decrease .btn-show_more {
+        width: 90px;
+        height: 20px;
+        font-size: 11px; } }
+    @media (max-width: 800px) {
+      .decrease .btn-show_more {
+        width: 100px;
+        height: 30px;
+        font-size: 13px; } }
 
 .szkolenia {
   margin-top: 80px;
