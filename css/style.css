@@ -84,7 +84,6 @@ button::-moz-focus-inner {
 h1 {
   font-size: 70px;
   font-family: "Fira Sans Condensed", sans-serif;
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
   color: #ffffff; }
   @media (max-width: 800px) {
@@ -440,7 +439,7 @@ a {
 
 .hero {
   height: 100vh;
-  background: url(../../img/backgrounds/morze.jpg);
+  background: url(../../img/backgrounds/wiezowce.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
