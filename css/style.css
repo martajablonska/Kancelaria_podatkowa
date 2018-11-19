@@ -249,6 +249,12 @@ button {
   -webkit-transform: translateY(30%);
       -ms-transform: translateY(30%);
           transform: translateY(30%); }
+  @media (max-width: 600px) {
+    .slidein {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+          -ms-transform: translateY(0%);
+              transform: translateY(0%); } }
 
 .active {
   opacity: 1;
@@ -439,7 +445,7 @@ a {
 
 .hero {
   height: 100vh;
-  background: url(../../img/backgrounds/wiezowce.jpg);
+  background: url(../../img/backgrounds/morze.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

@@ -3,6 +3,9 @@ $black:#000000;
 $turkus:#1D9A9E;
 $turkuslight:rgb(30, 178, 183);
 $lightgrey:#F9F9F9;
+@media (max-width:600px) {
+    $lightgrey:#f5f5f5;
+}
 $lightgrey2:rgb(247, 243, 243);
 $linegrey:rgb(214, 214, 214);
 $mediumgrey:#ADADAD;
