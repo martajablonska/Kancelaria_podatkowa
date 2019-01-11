@@ -118,7 +118,7 @@ h2:after {
   display: table;
   height: 3px;
   width: 140px;
-  background-color: #1D9A9E;
+  background-color: #0099A1;
   position: relative;
   top: 10px;
   left: 32%; }
@@ -139,6 +139,11 @@ h5 {
   font-size: 15px;
   text-transform: uppercase;
   margin-bottom: 25px; }
+
+h6 {
+  font-size: 18px;
+  padding-top: 25px;
+  margin: auto; }
 
 p {
   line-height: 2;
@@ -184,7 +189,7 @@ p {
     display: table;
     height: 3px;
     width: 100px;
-    background-color: #1D9A9E;
+    background-color: #0099A1;
     position: relative;
     top: 10px;
     left: 27%; } }
@@ -194,13 +199,13 @@ button {
 
 .btn-turkus {
   border-radius: 2px;
-  background-color: #1D9A9E;
+  background-color: #0099A1;
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase; }
 
 .btn-turkus:hover {
-  background-color: #1eb2b7; }
+  background-color: #00ADB1; }
 
 .btn-other_page {
   display: -webkit-box;
@@ -212,8 +217,8 @@ button {
   margin: auto;
   margin-bottom: 50px; }
   .btn-other_page button {
-    border: 3px solid #1D9A9E;
-    color: #1D9A9E;
+    border: 3px solid #0099A1;
+    color: #0099A1;
     border-radius: 3px;
     width: 230px;
     height: 50px;
@@ -222,7 +227,7 @@ button {
     font-weight: bold; }
   .btn-other_page button:hover {
     color: #ffffff;
-    background-color: #1D9A9E; }
+    background-color: #0099A1; }
 
 .btn-top {
   width: 35px;
@@ -233,7 +238,7 @@ button {
     color: #ffffff; }
 
 .btn-top:hover {
-  background-color: #1D9A9E; }
+  background-color: #0099A1; }
 
 .stick {
   position: fixed;
@@ -356,7 +361,7 @@ a {
       color: #4B4A52;
       font-weight: 400; }
     .header_menu li a:hover {
-      color: #1D9A9E; }
+      color: #0099A1; }
   @media (max-width: 1200px) {
     .header_menu {
       width: 90%; } }
@@ -440,7 +445,7 @@ a {
       color: #4B4A52;
       font-weight: 400; }
     .header_publikacje li a:hover {
-      color: #1D9A9E; }
+      color: #0099A1; }
   @media (max-width: 550px) {
     .header_publikacje {
       width: 100%; } }
@@ -694,7 +699,7 @@ a {
     color: #4B4A52; }
 
 .doradztwo_item-turkus {
-  background-color: #1D9A9E; }
+  background-color: #0099A1; }
   .doradztwo_item-turkus h4 {
     color: #ffffff; }
   .doradztwo_item-turkus .btn-show_more {
@@ -702,7 +707,7 @@ a {
     color: #ffffff; }
     .doradztwo_item-turkus .btn-show_more:hover {
       background-color: #ffffff;
-      color: #1eb2b7; }
+      color: #00ADB1; }
   .doradztwo_item-turkus .doradztwo_list li {
     color: #ffffff; }
   .doradztwo_item-turkus .btn-close {
@@ -946,7 +951,7 @@ a {
     display: table;
     height: 3px;
     width: 140px;
-    background-color: #1D9A9E;
+    background-color: #0099A1;
     position: relative;
     top: 10px;
     left: 0%; }
@@ -1047,8 +1052,8 @@ a {
   margin: auto;
   margin-bottom: 50px; }
   .btn-other_page button {
-    border: 3px solid #1D9A9E;
-    color: #1D9A9E;
+    border: 3px solid #0099A1;
+    color: #0099A1;
     border-radius: 3px;
     width: 230px;
     height: 50px;
@@ -1057,7 +1062,7 @@ a {
     font-weight: bold; }
   .btn-other_page button:hover {
     color: #ffffff;
-    background-color: #1D9A9E; }
+    background-color: #0099A1; }
 
 .posts {
   padding-top: 50px;
@@ -1188,11 +1193,11 @@ a {
   padding-bottom: 30px;
   border-bottom: 1px solid #d6d6d6; }
   .publikacje_item button {
-    color: #1D9A9E;
+    color: #0099A1;
     font-weight: bold;
     width: 100px; }
   .publikacje_item button:hover {
-    color: #1eb2b7; }
+    color: #00ADB1; }
   .publikacje_item .icon-btn {
     margin-right: 10px;
     font-size: 25px; }
@@ -1215,7 +1220,7 @@ a {
           align-items: center;
   margin: auto;
   padding-top: 30px;
-  background-color: #1D9A9E; }
+  background-color: #0099A1; }
   .newsletter p {
     color: #ffffff;
     font-size: 20px;
@@ -1248,7 +1253,7 @@ a {
     font-weight: bold;
     text-transform: uppercase; }
   .newsletter_form button:hover {
-    background-color: #1eb2b7; }
+    background-color: #00ADB1; }
 
 .checkbox {
   display: -webkit-box;
@@ -1388,7 +1393,7 @@ a {
       -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
               box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset; }
     .porady_form form button:hover {
-      background-color: #1eb2b7; }
+      background-color: #00ADB1; }
 
 .porady_descr {
   width: 50%; }
@@ -1559,6 +1564,11 @@ footer {
     line-height: 1.3; }
   .footer_contact {
     width: 90%; } }
+
+.footer_news {
+  font-size: 20px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 @media (max-width: 600px) {
   .footer_contact {

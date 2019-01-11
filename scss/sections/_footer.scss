@@ -138,6 +138,11 @@ footer {
     }
 }
 
+.footer_news {
+    font-size: 20px;
+    align-self: center;
+}
+
 @media (max-width:600px) {
     .footer_contact {
         display: flex;
